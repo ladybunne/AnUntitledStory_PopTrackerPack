@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Jump Upgrade",
+        "type": "toggle",
+        "img": "images/egg.png",
+        "codes": "jumpupgrade"
+    },
+    {
+        "name": "Red Energy / Energy Jump 1",
+        "type": "toggle",
+        "img": "images/redenergy.png",
+        "codes": "redenergy"
+    },
+    {
+        "name": "Lucky Pots",
+        "type": "toggle",
+        "img": "images/egg.png",
+        "codes": "luckypots"
+    },
+    {
+        "name": "Double Jump Upgrade",
+        "type": "toggle",
+        "img": "images/egg.png",
+        "codes": "doublejumpupgrade"
+    },
+    {
+        "name": "Duck",
+        "type": "toggle",
+        "img": "images/egg.png",
+        "codes": "duck"
+    },
+    {
+        "name": "Ceiling Stick",
+        "type": "toggle",
+        "img": "images/egg.png",
+        "codes": "ceilingstick"
+    },
+    {
+        "name": "Smash / Dive Bomb",
+        "type": "toggle",
+        "img": "images/egg.png",
+        "codes": "divebomb"
+    },
+    {
+        "name": "Shoot Fire / Fire Shot",
+        "type": "toggle",
+        "img": "images/egg.png",
+        "codes": "fireshot"
+    },
+    {
+        "name": "Yellow Energy / Energy Jump 2",
+        "type": "toggle",
+        "img": "images/yellowenergy.png",
+        "codes": "yellowenergy"
+    },
+    {
+        "name": "Hatch",
+        "type": "toggle",
+        "img": "images/egg.png",
+        "codes": "hatch"
+    },
+    {
+        "name": "Extra Air Capacity",
+        "type": "toggle",
+        "img": "images/egg.png",
+        "codes": "extraair"
+    },
+    {
+        "name": "Crystal Magnet / Magnetism",
+        "type": "toggle",
+        "img": "images/egg.png",
+        "codes": "magnet"
+    },
+    {
+        "name": "Ice Shot / Shoot Ice",
+        "type": "toggle",
+        "img": "images/egg.png",
+        "codes": "iceshot"
+    },
+    {
+        "name": "Toughness",
+        "type": "toggle",
+        "img": "images/egg.png",
+        "codes": "toughness"
+    }
+]

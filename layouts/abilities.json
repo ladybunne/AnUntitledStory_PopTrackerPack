@@ -1,0 +1,26 @@
+{
+    "abilities": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "2,2",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "3, 10",
+                        "margin": "0, 0",
+                        "h_alignment": "left",
+                        "rows": [
+                            ["jumpupgrade", "doublejumpupgrade", "redenergy", "yellowenergy", "ceilingstick", "fireshot", "iceshot", "smash"],
+                            ["duck", "hatch", "luckypots", "magnet", "extraair",  "toughness"]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
