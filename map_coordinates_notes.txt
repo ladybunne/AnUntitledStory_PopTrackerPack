@@ -1,0 +1,3 @@
+Each grid space is 15x15.
+
+Multiply index by 15, add 7 to centre.
