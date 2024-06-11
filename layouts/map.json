@@ -34,6 +34,15 @@
                                     "type": "layout",
                                     "key": "abilities"
                                 }
+                            },
+                            {
+                                "type": "group",
+                                "header": "Items",
+                                "dock": "left",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "items"
+                                }
                             }
                         ]
                     }

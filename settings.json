@@ -1,1 +1,4 @@
-{ "smooth_scaling": true }
+{ 
+    "smooth_scaling": false,
+    "smooth_map_scaling": true
+}

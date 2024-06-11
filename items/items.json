@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Heart",
+        "codes": "heart",
+        "img": "images/heart.png",
+        "type": "consumable",
+        "max_quantity": 95
+    },
+    {
+        "name": "Gold Orb",
+        "codes": "goldorb",
+        "img": "images/goldorb.png",
+        "type": "consumable",
+        "max_quantity": 10
+    },
+    {
+        "name": "Secret Flower",
+        "codes": "secretflower",
+        "img": "images/flower.png",
+        "type": "consumable",
+        "max_quantity": 20
+    }
+]

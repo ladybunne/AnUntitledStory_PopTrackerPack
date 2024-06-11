@@ -1,86 +1,92 @@
 [
     {
         "name": "Jump Upgrade",
-        "type": "toggle",
-        "img": "images/egg.png",
-        "codes": "jumpupgrade"
+        "codes": "jumpupgrade",
+        "img": "images/jump.png",
+        "type": "consumable",
+        "max_quantity": 3
     },
     {
         "name": "Red Energy / Energy Jump 1",
-        "type": "toggle",
+        "codes": "redenergy",
         "img": "images/redenergy.png",
-        "codes": "redenergy"
+        "type": "toggle"
     },
     {
         "name": "Lucky Pots",
-        "type": "toggle",
-        "img": "images/egg.png",
-        "codes": "luckypots"
+        "codes": "luckypots",
+        "img": "images/pots.png",
+        "type": "toggle"
     },
     {
         "name": "Double Jump Upgrade",
-        "type": "toggle",
-        "img": "images/egg.png",
-        "codes": "doublejumpupgrade"
+        "codes": "doublejumpupgrade",
+        "img": "images/doublejump.png",
+        "type": "consumable",
+        "max_quantity": 3
     },
     {
         "name": "Duck",
-        "type": "toggle",
-        "img": "images/egg.png",
-        "codes": "duck"
+        "codes": "duck",
+        "img": "images/duck.png",
+        "type": "toggle"
     },
     {
         "name": "Ceiling Stick",
-        "type": "toggle",
-        "img": "images/egg.png",
-        "codes": "ceilingstick"
+        "codes": "ceilingstick",
+        "img": "images/cling.png",
+        "type": "consumable",
+        "max_quantity": 2
     },
     {
         "name": "Smash / Dive Bomb",
-        "type": "toggle",
-        "img": "images/egg.png",
-        "codes": "divebomb"
+        "codes": "divebomb",
+        "img": "images/divebomb.png",
+        "type": "toggle"
     },
     {
         "name": "Shoot Fire / Fire Shot",
-        "type": "toggle",
-        "img": "images/egg.png",
-        "codes": "fireshot"
+        "codes": "fireshot",
+        "img": "images/fireshot.png",
+        "type": "consumable",
+        "max_quantity": 2
     },
     {
         "name": "Yellow Energy / Energy Jump 2",
-        "type": "toggle",
+        "codes": "yellowenergy",
         "img": "images/yellowenergy.png",
-        "codes": "yellowenergy"
+        "type": "toggle"
     },
     {
         "name": "Hatch",
-        "type": "toggle",
-        "img": "images/egg.png",
-        "codes": "hatch"
+        "codes": "hatch",
+        "img": "images/eggcrack.png",
+        "type": "toggle"
     },
     {
         "name": "Extra Air Capacity",
-        "type": "toggle",
-        "img": "images/egg.png",
-        "codes": "extraair"
+        "codes": "extraair",
+        "img": "images/blueheart.png",
+        "type": "consumable",
+        "max_quantity": 2
     },
     {
-        "name": "Crystal Magnet / Magnetism",
-        "type": "toggle",
-        "img": "images/egg.png",
-        "codes": "magnet"
+        "name": "Money Magnet / Magnetism",
+        "codes": "magnet",
+        "img": "images/pinkcrystal.png",
+        "type": "toggle"
     },
     {
         "name": "Ice Shot / Shoot Ice",
-        "type": "toggle",
-        "img": "images/egg.png",
-        "codes": "iceshot"
+        "codes": "iceshot",
+        "img": "images/iceshot.png",
+        "type": "toggle"
     },
     {
         "name": "Toughness",
-        "type": "toggle",
-        "img": "images/egg.png",
-        "codes": "toughness"
+        "codes": "toughness",
+        "img": "images/toughness.png",
+        "type": "consumable",
+        "max_quantity": 3
     }
 ]

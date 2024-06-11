@@ -1,5 +1,5 @@
 {
-    "abilities": {
+    "items": {
         "type": "array",
         "orientation": "vertical",
         "margin": "2,2",
@@ -15,8 +15,7 @@
                         "margin": "0, 0",
                         "h_alignment": "left",
                         "rows": [
-                            ["jumpupgrade", "doublejumpupgrade", "redenergy", "yellowenergy", "ceilingstick", "divebomb", "fireshot", "iceshot"],
-                            ["duck", "hatch", "luckypots", "magnet", "extraair",  "toughness"]
+                            ["heart", "goldorb", "secretflower"]
                         ]
                     }
                 ]
