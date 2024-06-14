@@ -30,7 +30,7 @@
 ]},{"name": "The Curtain", "children": [
 {"name":"The Curtain Upper Save","sections":[{"name":"Curtain_boss"}],"map_locations":[{"map":"Overworld","x":307,"y":7}]},
 {"name":"The Curtain Ninja 1","sections":[{"name":"Curtain_boss_14"}],"map_locations":[{"map":"Overworld","x":292,"y":7}]},
-{"name":"The Curtain Cannon Room Divebomb Heart","sections":[{"name":"Curtain_break"}],"map_locations":[{"map":"Overworld","x":277,"y":52}]},
+{"name":"The Curtain Cannon Screen Divebomb Heart","sections":[{"name":"Curtain_break"}],"map_locations":[{"map":"Overworld","x":277,"y":52}]},
 {"name":"The Curtain Floating Enemies Heart","sections":[{"name":"Curtain_kill_4"}],"map_locations":[{"map":"Overworld","x":277,"y":37}]},
 {"name":"The Curtain Lower Save","sections":[{"name":"Curtain_start_flower"}],"map_locations":[{"map":"Overworld","x":262,"y":82}]}
 ]},{"name": "Dark Grotto", "children": [
@@ -46,9 +46,9 @@
 {"name":"DeepDive Top Right Heart","sections":[{"name":"Deepdive_far_right"}],"map_locations":[{"map":"Overworld","x":307,"y":187}]},
 {"name":"DeepDive Left","sections":[{"name":"Deepdive_left"},{"name":"Deepdive_left_ceiling"},{"name":"Deepdive_chest"}],"map_locations":[{"map":"Overworld","x":187,"y":232}]},
 {"name":"DeepDive SS Eternity Heart","sections":[{"name":"Deepdive_right_path"}],"map_locations":[{"map":"Overworld","x":262,"y":232}]},
-{"name":"DeepDive Hidden Extra Air Upgrade","sections":[{"name":"Deepdive_shaft"}],"map_locations":[{"map":"Overworld","x":232,"y":217}]},
+{"name":"DeepDive Central Extra Air Upgrade","sections":[{"name":"Deepdive_shaft"}],"map_locations":[{"map":"Overworld","x":232,"y":217}]},
 {"name":"DeepDive Bottom Heart","sections":[{"name":"Deepdive_shaft_bot_right"}],"map_locations":[{"map":"Overworld","x":247,"y":262}]},
-{"name":"DeepDive Ice Shot Room","sections":[{"name":"Deepdive_shaft_mid_right"}],"map_locations":[{"map":"Overworld","x":247,"y":217}]},
+{"name":"DeepDive Ice Shot Upgrade","sections":[{"name":"Deepdive_shaft_mid_right"}],"map_locations":[{"map":"Overworld","x":247,"y":217}]},
 {"name":"DeepDive Shaft Top","sections":[{"name":"Deepdive_shaft_top"}],"map_locations":[{"map":"Overworld","x":232,"y":187}]},
 {"name":"DeepDive Single Yellow Fish Room","sections":[{"name":"Deepdive_shaft_top_right"}],"map_locations":[{"map":"Overworld","x":247,"y":202}]}
 ]},{"name": "DeepTower", "children": [
@@ -56,25 +56,23 @@
 {"name":"DeepTower Heart","sections":[{"name":"Deeptower_heart"}],"map_locations":[{"map":"Overworld","x":127,"y":157}]},
 {"name":"DeepTower Upper Heart Door","sections":[{"name":"Deeptower_top_entrance"}],"map_locations":[{"map":"Overworld","x":127,"y":97}]}
 ]},{"name": "FarFall", "children": [
-{"name":"Farfall_3_balloons","sections":[{"name":"Farfall_3_balloons"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Farfall_5_balloons","sections":[{"name":"Farfall_5_balloons"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Farfall_blue_rock_boss","sections":[{"name":"Farfall_blue_rock_boss"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Farfall_boss_8","sections":[{"name":"Farfall_boss_8"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Farfall_bottom_flower","sections":[{"name":"Farfall_bottom_flower"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Farfall_bottom_heart","sections":[{"name":"Farfall_bottom_heart"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Farfall_bottom_heart_door","sections":[{"name":"Farfall_bottom_heart_door"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Farfall_chest","sections":[{"name":"Farfall_chest"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Farfall_kill_3","sections":[{"name":"Farfall_kill_3"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Farfall_yellow_heart_door","sections":[{"name":"Farfall_yellow_heart_door"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]}
+{"name":"FarFall Three Balloons Heart","sections":[{"name":"Farfall_3_balloons"}],"map_locations":[{"map":"Overworld","x":7,"y":307}]},
+{"name":"FarFall Five Balloons Clockwise Heart","sections":[{"name":"Farfall_5_balloons"}],"map_locations":[{"map":"Overworld","x":7,"y":247}]},
+{"name":"FarFall Gold Orb","sections":[{"name":"Farfall_blue_rock_boss"}],"map_locations":[{"map":"Overworld","x":37,"y":307}]},
+{"name":"FarFall Boss","sections":[{"name":"Farfall_boss_8"}],"map_locations":[{"map":"Overworld","x":22,"y":307}]},
+{"name":"FarFall Bottom Right Save","sections":[{"name":"Farfall_bottom_flower"},{"name":"Farfall_bottom_heart"},{"name":"Farfall_bottom_heart_door"}],"map_locations":[{"map":"Overworld","x":22,"y":292}]},
+{"name":"FarFall Chest","sections":[{"name":"Farfall_chest"}],"map_locations":[{"map":"Overworld","x":7,"y":202}]},
+{"name":"FarFall Floating Enemies Heart","sections":[{"name":"Farfall_kill_3"}],"map_locations":[{"map":"Overworld","x":7,"y":187}]},
+{"name":"FarFall Yellow Energy Heart Door","sections":[{"name":"Farfall_yellow_heart_door"}],"map_locations":[{"map":"Overworld","x":37,"y":277}]}
 ]},{"name": "FireCage", "children": [
-{"name":"FireCage Yellow Energy","sections":[{"name":"Firecage_boss"}],"map_locations":[{"map":"Overworld","x":217,"y":187}]},
+{"name":"FireCage Yellow Energy Upgrade","sections":[{"name":"Firecage_boss"}],"map_locations":[{"map":"Overworld","x":217,"y":187}]},
 {"name":"FireCage Boss","sections":[{"name":"Firecage_boss_7"}],"map_locations":[{"map":"Overworld","x":217,"y":202}]},
 {"name":"FireCage Bottom Save","sections":[{"name":"Firecage_bot"}],"map_locations":[{"map":"Overworld","x":187,"y":202}]},
 {"name":"FireCage Bottom Left Save","sections":[{"name":"Firecage_bot_left_secret"}],"map_locations":[{"map":"Overworld","x":142,"y":202}]},
 {"name":"FireCage Middle","sections":[{"name":"Firecage_mid"},{"name":"Firecage_mid_heart_door"}],"map_locations":[{"map":"Overworld","x":187,"y":187}]},
 {"name":"FireCage Two Thwomps Heart","sections":[{"name":"Firecage_top"}],"map_locations":[{"map":"Overworld","x":172,"y":172}]},
 {"name":"FireCage Top Heart Door","sections":[{"name":"Firecage_top_heart_door"}],"map_locations":[{"map":"Overworld","x":187,"y":172}]},
-{"name":"FireCage Top Left Gate","sections":[{"name":"Firecage_top_left_gate"}],"map_locations":[{"map":"Overworld","x":142,"y":172}]}
+{"name":"FireCage Tollgate","sections":[{"name":"Firecage_top_left_gate"}],"map_locations":[{"map":"Overworld","x":142,"y":172}]}
 ]},{"name": "Grotto", "children": [
 {"name":"Grotto First Boss","sections":[{"name":"Grotto_boss_1"}],"map_locations":[{"map":"Overworld","x":217,"y":157}]},
 {"name":"Grotto Double Jump Upgrade","sections":[{"name":"Grotto_djump"}],"map_locations":[{"map":"Overworld","x":202,"y":157}]},
@@ -84,64 +82,57 @@
 ]},{"name": "HighLands", "children": [
 {"name":"HighLands Platform","sections":[{"name":"Highlands_platform"}],"map_locations":[{"map":"Overworld","x":247,"y":97}]}
 ]},{"name": "IceCastle", "children": [
-{"name":"Icecastle_boss","sections":[{"name":"Icecastle_boss"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Icecastle_boss_15","sections":[{"name":"Icecastle_boss_15"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Icecastle_bottom_underhang","sections":[{"name":"Icecastle_bottom_underhang"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Icecastle_entrance","sections":[{"name":"Icecastle_entrance"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Icecastle_entrance_flower","sections":[{"name":"Icecastle_entrance_flower"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Icecastle_entrance_heart_door","sections":[{"name":"Icecastle_entrance_heart_door"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Icecastle_high_mid_heartdoor","sections":[{"name":"Icecastle_high_mid_heartdoor"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Icecastle_left_outside","sections":[{"name":"Icecastle_left_outside"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Icecastle_low_mid_heartdoor","sections":[{"name":"Icecastle_low_mid_heartdoor"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Icecastle_low_mid_secret","sections":[{"name":"Icecastle_low_mid_secret"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Icecastle_top_left_heart_door","sections":[{"name":"Icecastle_top_left_heart_door"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Icecastle_top_right","sections":[{"name":"Icecastle_top_right"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]}
+{"name":"IceCastle Post-Boss Save","sections":[{"name":"Icecastle_boss"}],"map_locations":[{"map":"Overworld","x":412,"y":52}]},
+{"name":"IceCastle Boss","sections":[{"name":"Icecastle_boss_15"}],"map_locations":[{"map":"Overworld","x":427,"y":52}]},
+{"name":"IceCastle Post-Boss Underhang","sections":[{"name":"Icecastle_bottom_underhang"}],"map_locations":[{"map":"Overworld","x":352,"y":52}]},
+{"name":"IceCastle Narrow Spikes Heart Door","sections":[{"name":"Icecastle_entrance"},{"name":"Icecastle_entrance_heart_door"},{"name":"Icecastle_left_outside"}],"map_locations":[{"map":"Overworld","x":322,"y":37}]},
+{"name":"IceCastle Entrance Save","sections":[{"name":"Icecastle_entrance_flower"}],"map_locations":[{"map":"Overworld","x":322,"y":52}]},
+{"name":"IceCastle Tiny Platforms Heart Door","sections":[{"name":"Icecastle_high_mid_heartdoor"}],"map_locations":[{"map":"Overworld","x":382,"y":22}]},
+{"name":"IceCastle Single Cannon Heart Door","sections":[{"name":"Icecastle_low_mid_heartdoor"}],"map_locations":[{"map":"Overworld","x":382,"y":37}]},
+{"name":"IceCastle Hidden Path Through Spikes Near Save","sections":[{"name":"Icecastle_low_mid_secret"}],"map_locations":[{"map":"Overworld","x":397,"y":37}]},
+{"name":"IceCastle Yellow Energy Heart Door","sections":[{"name":"Icecastle_top_left_heart_door"}],"map_locations":[{"map":"Overworld","x":337,"y":7}]},
+{"name":"IceCastle Top Right Hidden Path Heart","sections":[{"name":"Icecastle_top_right"}],"map_locations":[{"map":"Overworld","x":442,"y":7}]}
 ]},{"name": "Library", "children": [
 {"name":"Library","sections":[{"name":"Library_heart"},{"name":"Library_flower"}],"map_locations":[{"map":"Overworld","x":292,"y":67}]}
 ]},{"name": "LongBeach", "children": [
-{"name":"LongBeach Entrance","sections":[{"name":"Longbeach_water_entrance_flower"}],"map_locations":[{"map":"Overworld","x":292,"y":157}]}
+{"name":"LongBeach Save","sections":[{"name":"Longbeach_water_entrance_flower"}],"map_locations":[{"map":"Overworld","x":292,"y":157}]}
 ]},{"name": "MountSide", "children": [
 {"name":"MountSide Save","sections":[{"name":"Mountside_left_flower"}],"map_locations":[{"map":"Overworld","x":142,"y":307}]},
 {"name":"MountSide End","sections":[{"name":"Mountside_right_heart_door"}],"map_locations":[{"map":"Overworld","x":217,"y":307}]}
 ]},{"name": "NightClimb", "children": [
 {"name":"NightClimb Boss","sections":[{"name":"Nightclimb_boss_4"}],"map_locations":[{"map":"Overworld","x":97,"y":67}]},
 {"name":"NightClimb Chest","sections":[{"name":"Nightclimb_chest"}],"map_locations":[{"map":"Overworld","x":112,"y":112}]},
-{"name":"NightClimb Top","sections":[{"name":"Nightclimb_duck"},{"name":"Nightclimb_duck_heart"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
+{"name":"NightClimb Duck Statues","sections":[{"name":"Nightclimb_duck"},{"name":"Nightclimb_duck_heart"}],"map_locations":[{"map":"Overworld","x":112,"y":52}]},
 {"name":"NightClimb Right Ledge Heart","sections":[{"name":"Nightclimb_right_heart"}],"map_locations":[{"map":"Overworld","x":112,"y":97}]},
 {"name":"NightClimb Upper Save","sections":[{"name":"Nightclimb_top_heart"},{"name":"Nightclimb_flower"}],"map_locations":[{"map":"Overworld","x":112,"y":67}]},
 {"name":"NightClimb Heart Inside Wall","sections":[{"name":"Nightclimb_wall_heart"}],"map_locations":[{"map":"Overworld","x":97,"y":82}]}
 ]},{"name": "NightWalk", "children": [
-{"name":"Nightwalk_block_heart","sections":[{"name":"Nightwalk_block_heart"}],"map_locations":[{"map":"Overworld","x":157,"y":157}]},
-{"name":"Nightwalk_chest","sections":[{"name":"Nightwalk_chest"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Nightwalk_hatch","sections":[{"name":"Nightwalk_hatch"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Nightwalk_high_flower","sections":[{"name":"Nightwalk_high_flower"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"NightWalk Jump Upgrade","sections":[{"name":"Nightwalk_jump_1"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Nightwalk_nest_flower","sections":[{"name":"Nightwalk_nest_flower"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Nightwalk_save_flower","sections":[{"name":"Nightwalk_save_flower"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Nightwalk_shrine_heart","sections":[{"name":"Nightwalk_shrine_heart"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Nightwalk_shrine_torches","sections":[{"name":"Nightwalk_shrine_torches"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Nightwalk_sky_heart","sections":[{"name":"Nightwalk_sky_heart"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Nightwalk_upper_heart","sections":[{"name":"Nightwalk_upper_heart"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]}
+{"name":"NightWalk Chest","sections":[{"name":"Nightwalk_chest"}],"map_locations":[{"map":"Overworld","x":172,"y":97}]},
+{"name":"NightWalk Hatch","sections":[{"name":"Nightwalk_hatch"}],"map_locations":[{"map":"Overworld","x":172,"y":142}]},
+{"name":"NightWalk Upper Save","sections":[{"name":"Nightwalk_high_flower"}],"map_locations":[{"map":"Overworld","x":217,"y":97}]},
+{"name":"NightWalk Jump Upgrade","sections":[{"name":"Nightwalk_jump_1"},{"name":"Nightwalk_block_heart"}],"map_locations":[{"map":"Overworld","x":157,"y":157}]},
+{"name":"NightWalk Nest","sections":[{"name":"Nightwalk_nest_flower"}],"map_locations":[{"map":"Overworld","x":142,"y":142}]},
+{"name":"NightWalk Start Save","sections":[{"name":"Nightwalk_save_flower"}],"map_locations":[{"map":"Overworld","x":142,"y":157}]},
+{"name":"NightWalk Bird Shrine","sections":[{"name":"Nightwalk_shrine_heart"},{"name":"Nightwalk_shrine_torches"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
+{"name":"NightWalk Red Energy Heart","sections":[{"name":"Nightwalk_sky_heart"}],"map_locations":[{"map":"Overworld","x":157,"y":142}]},
+{"name":"NightWalk Upper Path Heart","sections":[{"name":"Nightwalk_upper_heart"}],"map_locations":[{"map":"Overworld","x":142,"y":97}]}
 ]},{"name": "RainbowDive", "children": [
 {"name":"RainbowDive Prizes","sections":[{"name":"Rainbowdive_100"},{"name":"Rainbowdive_300"},{"name":"Rainbowdive_second_prize"},{"name":"Rainbowdive_first_prize"}],"map_locations":[{"map":"Overworld","x":307,"y":142}]}
 ]},{"name": "SkyLands", "children": [
-{"name":"Skylands_balloon_chain","sections":[{"name":"Skylands_balloon_chain"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Skylands_chest","sections":[{"name":"Skylands_chest"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Skylands_duck","sections":[{"name":"Skylands_duck"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Skylands_heart_gate","sections":[{"name":"Skylands_heart_gate"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Skylands_portal","sections":[{"name":"Skylands_portal"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Skylands_toll_gate","sections":[{"name":"Skylands_toll_gate"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Skylands_underhang","sections":[{"name":"Skylands_underhang"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]}
+{"name":"SkyLands Twelve Balloons Heart","sections":[{"name":"Skylands_balloon_chain"}],"map_locations":[{"map":"Overworld","x":382,"y":127}]},
+{"name":"SkyLands Chest","sections":[{"name":"Skylands_chest"}],"map_locations":[{"map":"Overworld","x":337,"y":112}]},
+{"name":"SkyLands Duck Statues","sections":[{"name":"Skylands_duck"}],"map_locations":[{"map":"Overworld","x":367,"y":97}]},
+{"name":"SkyLands Heart Door","sections":[{"name":"Skylands_heart_gate"}],"map_locations":[{"map":"Overworld","x":427,"y":142}]},
+{"name":"SkyLands Portal From NightWalk","sections":[{"name":"Skylands_portal"}],"map_locations":[{"map":"Overworld","x":412,"y":127}]},
+{"name":"SkyLands Tollgate","sections":[{"name":"Skylands_toll_gate"}],"map_locations":[{"map":"Overworld","x":352,"y":142}]},
+{"name":"SkyLands Upper Right Underhang Heart","sections":[{"name":"Skylands_underhang"}],"map_locations":[{"map":"Overworld","x":442,"y":67}]}
 ]},{"name": "SkySand", "children": [
-{"name":"Skysand_boss","sections":[{"name":"Skysand_boss"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Skysand_boss_10","sections":[{"name":"Skysand_boss_10"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Skysand_bot_left","sections":[{"name":"Skysand_bot_left"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Skysand_left_outside","sections":[{"name":"Skysand_left_outside"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Skysand_left_roof","sections":[{"name":"Skysand_left_roof"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Skysand_right_heart_door","sections":[{"name":"Skysand_right_heart_door"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Skysand_right_roof_chest","sections":[{"name":"Skysand_right_roof_chest"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Skysand_top","sections":[{"name":"Skysand_top"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Skysand_top_heart_door","sections":[{"name":"Skysand_top_heart_door"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]}
+{"name":"SkySand Gold Orb","sections":[{"name":"Skysand_boss"}],"map_locations":[{"map":"Overworld","x":37,"y":22}]},
+{"name":"SkySand Boss","sections":[{"name":"Skysand_boss_10"}],"map_locations":[{"map":"Overworld","x":37,"y":37}]},
+{"name":"SkySand Lower Save","sections":[{"name":"Skysand_bot_left"},{"name":"Skysand_left_outside"}],"map_locations":[{"map":"Overworld","x":22,"y":112}]},
+{"name":"SkySand Upper Save","sections":[{"name":"Skysand_left_roof"}],"map_locations":[{"map":"Overworld","x":22,"y":82}]},
+{"name":"SkySand Lower Heart Door","sections":[{"name":"Skysand_right_heart_door"},{"name":"Skysand_right_roof_chest"}],"map_locations":[{"map":"Overworld","x":52,"y":82}]},
+{"name":"SkySand Upper Heart Door","sections":[{"name":"Skysand_top"},{"name":"Skysand_top_heart_door"}],"map_locations":[{"map":"Overworld","x":37,"y":52}]}
 ]},{"name": "Sky Town", "children": [
 {"name":"Sky Town Entrance","sections":[{"name":"Skytown_flower"},{"name":"Skytown_tower_heart"}],"map_locations":[{"map":"Overworld","x":67,"y":142}]},
 {"name":"Sky Town Pit Left","sections":[{"name":"Skytown_pit_left"}],"map_locations":[{"map":"Overworld","x":67,"y":157}]},
@@ -149,14 +140,13 @@
 {"name":"Sky Town Shop","sections":[{"name":"Skytown_red_heart"},{"name":"Skytown_shop_1"},{"name":"Skytown_shop_2"},{"name":"Skytown_shop_3"},{"name":"Skytown_shop_4"},{"name":"Skytown_shop_5"},{"name":"Skytown_shop_6"},{"name":"Skytown_shop_7"},{"name":"Skytown_shop_8"}],"map_locations":[{"map":"Overworld","x":37,"y":142}]},
 {"name":"Sky Town Edge","sections":[{"name":"Skytown_yellow_heart"}],"map_locations":[{"map":"Overworld","x":22,"y":142}]}
 ]},{"name": "StoneCastle", "children": [
-{"name":"Stonecastle_boss_5","sections":[{"name":"Stonecastle_boss_5"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Stonecastle_boss_9","sections":[{"name":"Stonecastle_boss_9"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Stonecastle_eye_boss","sections":[{"name":"Stonecastle_eye_boss"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Stonecastle_flower","sections":[{"name":"Stonecastle_flower"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Stonecastle_heart_door","sections":[{"name":"Stonecastle_heart_door"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Stonecastle_hidden_heart","sections":[{"name":"Stonecastle_hidden_heart"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Stonecastle_rock_boss","sections":[{"name":"Stonecastle_rock_boss"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]},
-{"name":"Stonecastle_top_heart","sections":[{"name":"Stonecastle_top_heart"}],"map_locations":[{"map":"Overworld","x":172,"y":157}]}
+{"name":"StoneCastle Rock Boss","sections":[{"name":"Stonecastle_boss_5"}],"map_locations":[{"map":"Overworld","x":67,"y":202}]},
+{"name":"StoneCastle Eye Boss","sections":[{"name":"Stonecastle_boss_9"}],"map_locations":[{"map":"Overworld","x":82,"y":187}]},
+{"name":"StoneCastle Gold Orb","sections":[{"name":"Stonecastle_eye_boss"}],"map_locations":[{"map":"Overworld","x":97,"y":187}]},
+{"name":"StoneCastle Entry Save","sections":[{"name":"Stonecastle_flower"}],"map_locations":[{"map":"Overworld","x":37,"y":202}]},
+{"name":"StoneCastle Heart Door","sections":[{"name":"Stonecastle_heart_door"},{"name":"Stonecastle_hidden_heart"}],"map_locations":[{"map":"Overworld","x":52,"y":202}]},
+{"name":"StoneCastle Divebomb Upgrade","sections":[{"name":"Stonecastle_rock_boss"}],"map_locations":[{"map":"Overworld","x":82,"y":202}]},
+{"name":"StoneCastle Upper Heart","sections":[{"name":"Stonecastle_top_heart"}],"map_locations":[{"map":"Overworld","x":52,"y":172}]}
 ]},{"name": "StrangeCastle", "children": [
 {"name":"StrangeCastle","sections":[{"name":"Strangecastle"},{"name":"Strangecastle_heart_door"}],"map_locations":[{"map":"Overworld","x":67,"y":307}]}
 ]},{"name": "UnderTomb", "children": [
