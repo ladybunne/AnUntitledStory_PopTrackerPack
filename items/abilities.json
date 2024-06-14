@@ -1,7 +1,7 @@
 [
     {
         "name": "Jump Upgrade",
-        "codes": "jumpupgrade",
+        "codes": "jump",
         "img": "images/jump.png",
         "type": "consumable",
         "max_quantity": 3
@@ -20,7 +20,7 @@
     },
     {
         "name": "Double Jump Upgrade",
-        "codes": "doublejumpupgrade",
+        "codes": "doublejump",
         "img": "images/doublejump.png",
         "type": "consumable",
         "max_quantity": 3

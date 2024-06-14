@@ -8,7 +8,7 @@
 {"name":"BlancLand Top Save","sections":[{"name":"Blancland_boss"}],"map_locations":[{"map":"Overworld","x":97,"y":232}]},
 {"name":"BlancLand Boss","sections":[{"name":"Blancland_boss_16"}],"map_locations":[{"map":"Overworld","x":112,"y":232}]},
 {"name":"BlancLand Bottom Left Heart","sections":[{"name":"Blancland_bottom_left"}],"map_locations":[{"map":"Overworld","x":52,"y":262}]},
-{"name":"BlancLand Bottom Right Save","sections":[{"name":"Blancland_entrance_flower"}],"map_locations":[{"map":"Overworld","x":157,"y":262}]},
+{"name":"BlancLand Entrance Save","sections":[{"name":"Blancland_entrance_flower"}],"map_locations":[{"map":"Overworld","x":157,"y":262}]},
 {"name":"BlancLand Top Left Heart","sections":[{"name":"Blancland_top_left_kill"}],"map_locations":[{"map":"Overworld","x":67,"y":232}]}
 ]},{"name": "Bonus", "children": [
 {"name":"Bonus","sections":[{"name":"Bonus_1"},{"name":"Bonus_2"}],"map_locations":[{"map":"Overworld","x":127,"y":187}]}
@@ -50,7 +50,7 @@
 {"name":"DeepDive Bottom Heart","sections":[{"name":"Deepdive_shaft_bot_right"}],"map_locations":[{"map":"Overworld","x":247,"y":262}]},
 {"name":"DeepDive Ice Shot Upgrade","sections":[{"name":"Deepdive_shaft_mid_right"}],"map_locations":[{"map":"Overworld","x":247,"y":217}]},
 {"name":"DeepDive Shaft Top","sections":[{"name":"Deepdive_shaft_top"}],"map_locations":[{"map":"Overworld","x":232,"y":187}]},
-{"name":"DeepDive Single Yellow Fish Room","sections":[{"name":"Deepdive_shaft_top_right"}],"map_locations":[{"map":"Overworld","x":247,"y":202}]}
+{"name":"DeepDive Single Yellow Fish Heart","sections":[{"name":"Deepdive_shaft_top_right"}],"map_locations":[{"map":"Overworld","x":247,"y":202}]}
 ]},{"name": "DeepTower", "children": [
 {"name":"DeepTower Boss","sections":[{"name":"Deeptower_boss_2"},{"name":"Deeptower_cannon_boss"}],"map_locations":[{"map":"Overworld","x":127,"y":142}]},
 {"name":"DeepTower Heart","sections":[{"name":"Deeptower_heart"}],"map_locations":[{"map":"Overworld","x":127,"y":157}]},
@@ -134,7 +134,7 @@
 {"name":"SkySand Lower Heart Door","sections":[{"name":"Skysand_right_heart_door"},{"name":"Skysand_right_roof_chest"}],"map_locations":[{"map":"Overworld","x":52,"y":82}]},
 {"name":"SkySand Upper Heart Door","sections":[{"name":"Skysand_top"},{"name":"Skysand_top_heart_door"}],"map_locations":[{"map":"Overworld","x":37,"y":52}]}
 ]},{"name": "Sky Town", "children": [
-{"name":"Sky Town Entrance","sections":[{"name":"Skytown_flower"},{"name":"Skytown_tower_heart"}],"map_locations":[{"map":"Overworld","x":67,"y":142}]},
+{"name":"Sky Town Entrance Save","sections":[{"name":"Skytown_flower"},{"name":"Skytown_tower_heart"}],"map_locations":[{"map":"Overworld","x":67,"y":142}]},
 {"name":"Sky Town Pit Left","sections":[{"name":"Skytown_pit_left"}],"map_locations":[{"map":"Overworld","x":67,"y":157}]},
 {"name":"Sky Town Pit Right","sections":[{"name":"Skytown_pit_right"}],"map_locations":[{"map":"Overworld","x":97,"y":157}]},
 {"name":"Sky Town Shop","sections":[{"name":"Skytown_red_heart"},{"name":"Skytown_shop_1"},{"name":"Skytown_shop_2"},{"name":"Skytown_shop_3"},{"name":"Skytown_shop_4"},{"name":"Skytown_shop_5"},{"name":"Skytown_shop_6"},{"name":"Skytown_shop_7"},{"name":"Skytown_shop_8"}],"map_locations":[{"map":"Overworld","x":37,"y":142}]},

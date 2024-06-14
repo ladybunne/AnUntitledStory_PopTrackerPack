@@ -15,7 +15,7 @@
                         "margin": "0, 0",
                         "h_alignment": "left",
                         "rows": [
-                            ["jumpupgrade", "doublejumpupgrade", "redenergy", "yellowenergy", "ceilingstick", "divebomb", "fireshot", "iceshot"],
+                            ["jump", "doublejump", "redenergy", "yellowenergy", "ceilingstick", "divebomb", "fireshot", "iceshot"],
                             ["duck", "hatch", "luckypots", "magnet", "extraair",  "toughness"]
                         ]
                     }

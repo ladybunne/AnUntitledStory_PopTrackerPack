@@ -1,0 +1,19 @@
+ITEM_MAPPING = {
+    [72006] = {"doublejump", "consumable"},
+    [72009] = {"duck", "toggle"},
+    [72018] = {"extraair", "consumable"},
+    [72200] = {"goldorb", "consumable"},
+    [72017] = {"hatch", "toggle"},
+    [72100] = {"heart", "consumable"},
+    [72021] = {"iceshot", "toggle"},
+    [72001] = {"jump", "consumable"},
+    [72005] = {"luckypots", "toggle"},
+    [72020] = {"magnet", "toggle"},
+    [72010] = {"ceilingstick", "consumable"},
+    [72014] = {"fireshot", "consumable"},
+    [72004] = {"redenergy", "toggle"},
+    [72300] = {"secretflower", "consumable"},
+    [72013] = {"divebomb", "toggle"},
+    [72022] = {"toughness", "consumable"},
+    [72016] = {"yellowenergy", "toggle"}
+}
