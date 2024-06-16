@@ -15,7 +15,7 @@
     },
     {
         "name": "Secret Flower",
-        "codes": "secretflower",
+        "codes": "flower",
         "img": "images/flower.png",
         "type": "consumable",
         "max_quantity": 20
