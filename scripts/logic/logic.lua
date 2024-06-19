@@ -30,15 +30,16 @@ end
 -- Zone access rules
 
 function AccessBlackCastle()
-  return AccessLongBeach() and Has("goldorb", 7)
+  return AccessLongBeach()
 end
 
 function AccessBlancLand()
   return AccessDeepDive()
 end
 
+-- Not currently used due to fiddly out-of-logic FireCage red energy skip stuff
 function AccessBonus()
-  return AccessFireCage()
+  return AccessFireCageInner()
 end
 
 function AccessBottom()
@@ -58,11 +59,11 @@ function AccessTheCurtain()
 end
 
 function AccessDarkGrotto()
-  return AccessHighLands() and Has("smash")
+  return AccessHighLands() and Has("divebomb")
 end
 
 function AccessDeepDive()
-  return AccessGrottoUpper() and Has("smash")
+  return AccessGrottoUpper() and Has("divebomb")
 end
 
 function AccessDeepTower()
@@ -74,7 +75,7 @@ function AccessFarFall()
 end
 
 function AccessFireCage()
-  return AccessGrottoUpper() and Has("smash") and Has ("ceilingstick")
+  return AccessGrottoUpper() and Has("divebomb")
 end
 
 function AccessGrotto()
@@ -82,7 +83,7 @@ function AccessGrotto()
 end
 
 function AccessHighLands()
-  return AccessGrottoUpper() and Has("iceshot")
+  return AccessGrottoUpper() and Has("redenergy") and Has("iceshot")
 end
 
 function AccessIceCastle()
@@ -94,11 +95,11 @@ function AccessLibrary()
 end
 
 function AccessLongBeach()
-  return AccessTheCurtain() or AccessDarkGrotto() or AccessDeepDive()
+  return AccessDeepDiveRight() or AccessDarkGrotto() or AccessTheCurtainUpper()
 end
 
 function AccessMountSide()
-  return AccessHighLands()
+  return AccessGrottoUpper() and Has("redenergy")
 end
 
 function AccessNightClimb()
@@ -114,11 +115,11 @@ function AccessRainbowDive()
 end
 
 function AccessSkyLands()
-  return AccessTheCurtain()
+  return AccessTheCurtainUpper()
 end
 
 function AccessSkySand()
-  return AccessNightClimb
+  return AccessNightClimb()
 end
 
 function AccessSkyTown()
@@ -134,6 +135,7 @@ function AccessStoneCastle()
 end
 
 function AccessStrangeCastle()
+  -- Need to test if doublejumps are needed.
   return AccessFarFallLowerLeft()
 end
 
@@ -143,10 +145,24 @@ end
 
 -- Extras to help with subzones
 
-function AccessGrottoUpper()
-  return Has("hatch") and -- For getting past the tollgate...
-      (Has("duck") and Has("redenergy") and JumpHeightMin(6)) or -- Vanilla...
-      JumpHeightMin(8) -- ...or "No. Jump good."
+function AccessBlackCastleInner()
+  return AccessBlackCastle() and Has("goldorb", 7) and Has("doublejump", 3) and Has("ceilingstick", 2) and Has("redenergy") and Has("divebomb")
+end
+
+function AccessBlancLandLowerLeft()
+  return AccessBlancLand() and (Has("redenergy") or Has("iceshot"))
+end
+
+function AccessCloudRunMiddle()
+  return AccessCloudRun() and JumpHeightMin(8) and Has("fireshot")
+end
+
+function AccessCloudRunRight()
+  return AccessCloudRunMiddle() and Has("iceshot")
+end
+
+function AccessDeepDiveRight()
+  return AccessDeepDive() and JumpHeightMin(7)
 end
 
 function AccessFarFallLower()
@@ -158,28 +174,58 @@ function AccessFarFallLowerLeft()
 end
 
 function AccessFarFallLowerRight()
+  -- The boss and StrangeCastle may need a doublejump.
   return AccessFarFallLower() and Has("redenergy")
 end
 
-function AccessSkySandInner()
-  return AccessSkySand() and Has("iceshot")
+function AccessFireCageInner()
+  -- Red energy isn't _strictly_ required to get past the first heart door room...
+  -- ...but you need a maxed doublejump to pull it off.
+  return AccessFireCage() and -- Get in the area, then...
+    ((Has("ceilingstick") and Has("redenergy")) or -- Normal
+    (Has("ceilingstick") and Has("doublejump", 3))) -- Red energy skip
 end
 
-function AccessSkySandUpper()
-  return AccessSkySandInner() and Has("ceilingslide", 2)
+-- This gets to be its own function because it's fucky!
+function AccessFireCageInnerOutOfLogic()
+    return AccessFireCage() and Has("redenergy") and Has("jump", 2) and Has("doublejump", 3) -- Ceiling stick skip (requires taking damage)
 end
 
-function AccessTheCurtainUpper()
-  return AccessTheCurtain and JumpHeightMin(8)
+-- Further FireCage out of logic notes:
+--  - It turns out you can get to FireCage Middle without ceiling stick, too! What a fun turn of events! /s
+--  - You need to make a precise jump from spikes onto the floating enemy, then hit the red energy. It might require a maxed jump and doublejump.
+--  - This gets you access to FireCage Middle (not heart door, obviously), and everything in the boss area. Hell, if you have yellow energy you can clear all of it!
+--  - Except the item above the save, because by definition you don't have slide for it. Oh well.
+--  - It's hyper-cursed and I will do logic for it later... but it is possible.
+
+
+function AccessGrottoUpper()
+  return Has("hatch") and -- For getting past the tollgate...
+      ((Has("duck") and Has("redenergy") and JumpHeightMin(6)) or -- Vanilla...
+      JumpHeightMin(8)) -- ...or "No. Jump good."
 end
 
 function AccessNightWalkUpper()
   return AccessTheCurtainUpper()
 end
 
--- debugging
+function AccessSkySandInner()
+  return AccessSkySand() and Has("iceshot")
+end
 
-function TestFunctionForRabbits()
-  print(string.format("hello %s",JumpHeightMin(5)))
-  return true
+function AccessSkySandMiddle()
+  return AccessSkySandInner() and Has("ceilingstick", 2) and Has("redenergy")
+end
+
+function AccessSkySandUpper()
+  return AccessSkySandMiddle() and Has("jump", 1)
+end
+
+function AccessStoneCastleUpper()
+  -- I think this might be doable with 7.
+  return AccessStoneCastle() and Has("redenergy") and Has("yellowenergy") and JumpHeightMin(7)
+end
+
+function AccessTheCurtainUpper()
+  return AccessTheCurtain() and JumpHeightMin(8)
 end
