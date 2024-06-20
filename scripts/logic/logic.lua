@@ -161,6 +161,11 @@ function AccessCloudRunRight()
   return AccessCloudRunMiddle() and Has("iceshot")
 end
 
+-- Lighting the torches can be done with divebomb, but it's precise to do without taking damage.
+function AccessDarkGrottoPostBoss()
+  return AccessDarkGrotto() and Has("iceshot")
+end
+
 function AccessDeepDiveRight()
   return AccessDeepDive() and JumpHeightMin(7)
 end
@@ -226,6 +231,7 @@ function AccessStoneCastleUpper()
   return AccessStoneCastle() and Has("redenergy") and Has("yellowenergy") and JumpHeightMin(7)
 end
 
+-- Interestingly, you can knock back Curtain ghosts with ice shot, so you don't actually need fire here.
 function AccessTheCurtainUpper()
   return AccessTheCurtain() and JumpHeightMin(8)
 end

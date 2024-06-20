@@ -37,7 +37,7 @@
             },
             {
                 "name": "BlackCastle Hidden Heart Under Red Blocks",
-                "access_rules": ["$AccessBlackCastleInner"],
+                "access_rules": ["$AccessBlackCastleInner, fireshot"],
                 "sections": [
                     {
                         "name": "Blackcastle_top_mid"
@@ -127,7 +127,7 @@
                 "sections": [
                     {
                         "name": "Blancland_top_left_kill",
-                        "access_rules": ["fireshot", "iceshot"]
+                        "access_rules": ["fireshot"]
                     }
                 ],
                 "map_locations": [
@@ -463,6 +463,7 @@
         "children": [
             {
                 "name": "Dark Grotto Exit Save",
+                "access_rules": ["$AccessDarkGrottoPostBoss, [fireshot]"],
                 "sections": [
                     {
                         "name": "Darkgrotto_bot_right_flower"
@@ -478,6 +479,7 @@
             },
             {
                 "name": "Dark Grotto Boss",
+                "access_rules": ["$AccessDarkGrottoPostBoss, [fireshot]"],
                 "sections": [
                     {
                         "name": "Darkgrotto_boss_13"
@@ -516,7 +518,8 @@
                 "name": "Dark Grotto Upper Save",
                 "sections": [
                     {
-                        "name": "Darkgrotto_top_left"
+                        "name": "Darkgrotto_top_left",
+                        "access_rules": ["yellowenergy, $JumpHeightMin|7"]
                     }
                 ],
                 "map_locations": [
@@ -619,6 +622,7 @@
             },
             {
                 "name": "DeepDive Left",
+                "access_rules": ["doublejump:3"],
                 "sections": [
                     {
                         "name": "Deepdive_left"
@@ -968,7 +972,7 @@
             },
             {
                 "name": "FireCage Bottom Save",
-                "access_rules": ["$AccessFireCageInner, redenergy, yellowenergy"],
+                "access_rules": ["$AccessFireCageInner, redenergy, yellowenergy, ceilingstick:2"],
                 "sections": [
                     {
                         "name": "Firecage_bot"
@@ -2007,7 +2011,7 @@
                 "sections": [
                     {
                         "name": "Skytown_red_heart",
-                        "access_rules": ["redenergy"]
+                        "access_rules": ["redenergy", "$AccessSkySandInner"]
                     },
                     {
                         "name": "Skytown_shop_1",
