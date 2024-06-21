@@ -1,0 +1,107 @@
+[
+    {
+        "name": "10 Crystals",
+        "codes": "10crystals",
+        "img": "images/10crystals.png",
+        "type": "toggle"
+    },
+    {
+        "name": "25 Crystals",
+        "codes": "25crystals",
+        "img": "images/25crystals.png",
+        "type": "toggle"
+    },
+    {
+        "name": "35 Crystals",
+        "codes": "35crystals",
+        "img": "images/35crystals.png",
+        "type": "consumable",
+        "max_quantity": 2
+    },
+    {
+        "name": "50 Crystals",
+        "codes": "50crystals",
+        "img": "images/50crystals.png",
+        "type": "toggle"
+    },
+    {
+        "name": "65 Crystals",
+        "codes": "65crystals",
+        "img": "images/65crystals.png",
+        "type": "toggle"
+    },
+    {
+        "name": "75 Crystals",
+        "codes": "75crystals",
+        "img": "images/75crystals.png",
+        "type": "toggle"
+    },
+    {
+        "name": "100 Crystals",
+        "codes": "100crystals",
+        "img": "images/100crystals.png",
+        "type": "toggle"
+    },
+    {
+        "name": "110 Crystals",
+        "codes": "110crystals",
+        "img": "images/110crystals.png",
+        "type": "toggle"
+    },
+    {
+        "name": "125 Crystals",
+        "codes": "125crystals",
+        "img": "images/125crystals.png",
+        "type": "toggle"
+    },
+    {
+        "name": "150 Crystals",
+        "codes": "150crystals",
+        "img": "images/150crystals.png",
+        "type": "consumable",
+        "max_quantity": 2
+    },
+    {
+        "name": "180 Crystals",
+        "codes": "180crystals",
+        "img": "images/180crystals.png",
+        "type": "toggle"
+    },
+    {
+        "name": "200 Crystals",
+        "codes": "200crystals",
+        "img": "images/200crystals.png",
+        "type": "consumable",
+        "max_quantity": 3
+    },
+    {
+        "name": "235 Crystals",
+        "codes": "235crystals",
+        "img": "images/235crystals.png",
+        "type": "toggle"
+    },
+    {
+        "name": "245 Crystals",
+        "codes": "245crystals",
+        "img": "images/245crystals.png",
+        "type": "toggle"
+    },
+    {
+        "name": "270 Crystals",
+        "codes": "270crystals",
+        "img": "images/270crystals.png",
+        "type": "toggle"
+    },
+    {
+        "name": "300 Crystals",
+        "codes": "300crystals",
+        "img": "images/300crystals.png",
+        "type": "toggle"
+    },
+    {
+        "name": "400 Crystals",
+        "codes": "400crystals",
+        "img": "images/400crystals.png",
+        "type": "toggle"
+    }
+]

@@ -609,7 +609,8 @@
                 "access_rules": ["$AccessDeepDiveRight"],
                 "sections": [
                     {
-                        "name": "Deepdive_far_right"
+                        "name": "Deepdive_far_right",
+                        "access_rules": ["[jump:3]"]
                     }
                 ],
                 "map_locations": [
@@ -1190,6 +1191,7 @@
         "children": [
             {
                 "name": "IceCastle Post-Boss Save",
+                "access_rules": ["$AccessIceCastleBoss"],
                 "sections": [
                     {
                         "name": "Icecastle_boss"
@@ -1205,6 +1207,7 @@
             },
             {
                 "name": "IceCastle Boss",
+                "access_rules": ["$AccessIceCastleBoss"],
                 "sections": [
                     {
                         "name": "Icecastle_boss_15"
@@ -1220,6 +1223,7 @@
             },
             {
                 "name": "IceCastle Post-Boss Underhang",
+                "access_rules": ["$AccessIceCastleBoss"],
                 "sections": [
                     {
                         "name": "Icecastle_bottom_underhang"
@@ -1724,7 +1728,7 @@
         "children": [
             {
                 "name": "SkyLands Twelve Balloons Heart",
-                "access_rules": ["$AccessSkyLands, fireshot:2"],
+                "access_rules": ["$AccessSkyLandsRight, fireshot:2"],
                 "sections": [
                     {
                         "name": "Skylands_balloon_chain"
@@ -1756,7 +1760,7 @@
             },
             {
                 "name": "SkyLands Duck Statues",
-                "access_rules": ["$AccessSkyLands"],
+                "access_rules": ["$AccessSkyLandsRight"],
                 "sections": [
                     {
                         "name": "Skylands_duck",
@@ -1773,7 +1777,7 @@
             },
             {
                 "name": "SkyLands Heart Door",
-                "access_rules": ["$AccessSkyLands"],
+                "access_rules": ["$AccessSkyLandsRight"],
                 "sections": [
                     {
                         "name": "Skylands_heart_gate"
@@ -1821,7 +1825,7 @@
             },
             {
                 "name": "SkyLands Upper Right Underhang Heart",
-                "access_rules": ["$AccessSkyLands"],
+                "access_rules": ["$AccessSkyLandsRight"],
                 "sections": [
                     {
                         "name": "Skylands_underhang"
@@ -1843,7 +1847,7 @@
         "children": [
             {
                 "name": "SkySand Gold Orb",
-                "access_rules": ["$AccessSkySandUpper"],
+                "access_rules": ["$AccessSkySandMiddle"],
                 "sections": [
                     {
                         "name": "Skysand_boss"
@@ -1859,7 +1863,7 @@
             },
             {
                 "name": "SkySand Boss",
-                "access_rules": ["$AccessSkySandUpper"],
+                "access_rules": ["$AccessSkySandMiddle"],
                 "sections": [
                     {
                         "name": "Skysand_boss_10"
@@ -1883,7 +1887,7 @@
                     },
                     {
                         "name": "Skysand_left_outside",
-                        "access_rules": ["$AccessSkySandUpper"]
+                        "access_rules": ["$AccessSkySandMiddle"]
                     }
                 ],
                 "map_locations": [
@@ -1931,7 +1935,7 @@
             },
             {
                 "name": "SkySand Upper Heart Door",
-                "access_rules": ["$AccessSkySandUpper"],
+                "access_rules": ["$AccessSkySandMiddle"],
                 "sections": [
                     {
                         "name": "Skysand_top",
@@ -2015,35 +2019,35 @@
                     },
                     {
                         "name": "Skytown_shop_1",
-                        "access_rules": ["[]"]
+                        "access_rules": [""]
                     },
                     {
                         "name": "Skytown_shop_2",
-                        "access_rules": ["[]"]
+                        "access_rules": [""]
                     },
                     {
                         "name": "Skytown_shop_3",
-                        "access_rules": ["[]"]
+                        "access_rules": [""]
                     },
                     {
                         "name": "Skytown_shop_4",
-                        "access_rules": ["[]"]
+                        "access_rules": ["[$CanBuyEverythingInShop]"]
                     },
                     {
                         "name": "Skytown_shop_5",
-                        "access_rules": ["[]"]
+                        "access_rules": [""]
                     },
                     {
                         "name": "Skytown_shop_6",
-                        "access_rules": ["[]"]
+                        "access_rules": ["[$CanBuyEverythingInShop]"]
                     },
                     {
                         "name": "Skytown_shop_7",
-                        "access_rules": ["[]"]
+                        "access_rules": ["[$CanBuyEverythingInShop]"]
                     },
                     {
                         "name": "Skytown_shop_8",
-                        "access_rules": ["[]"]
+                        "access_rules": ["[$CanBuyEverythingInShop]"]
                     }
                 ],
                 "map_locations": [

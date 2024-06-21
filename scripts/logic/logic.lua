@@ -27,6 +27,44 @@ function CanLightTorches()
   return Has("fireshot") or Has("divebomb")
 end
 
+-- A brief note on shops: 
+-- The way I'm doing logic for them is twofold:
+--   1. If it costs less than 100 crystals it's always considered in logic, since farming
+--      that many crystals is pretty trivial.
+--   2. If it costs 100 crystals or more, it requires enough crystals to buy out the entire shop.
+--      This is so that people can't screw themselves logically by buying the "wrong" item or whatever.
+-- 
+-- I may revise either or both of these at any time.
+
+function CrystalCount()
+  local crystal_count = 0
+
+  -- It's ugly, but it works.
+  crystal_count = crystal_count + 10 * Tracker:ProviderCountForCode("10crystals")
+  crystal_count = crystal_count + 25 * Tracker:ProviderCountForCode("25crystals")
+  crystal_count = crystal_count + 35 * Tracker:ProviderCountForCode("35crystals")
+  crystal_count = crystal_count + 50 * Tracker:ProviderCountForCode("50crystals")
+  crystal_count = crystal_count + 65 * Tracker:ProviderCountForCode("65crystals")
+  crystal_count = crystal_count + 75 * Tracker:ProviderCountForCode("75crystals")
+  crystal_count = crystal_count + 100 * Tracker:ProviderCountForCode("100crystals")
+  crystal_count = crystal_count + 110 * Tracker:ProviderCountForCode("110crystals")
+  crystal_count = crystal_count + 125 * Tracker:ProviderCountForCode("125crystals")
+  crystal_count = crystal_count + 150 * Tracker:ProviderCountForCode("150crystals")
+  crystal_count = crystal_count + 180 * Tracker:ProviderCountForCode("180crystals")
+  crystal_count = crystal_count + 200 * Tracker:ProviderCountForCode("200crystals")
+  crystal_count = crystal_count + 235 * Tracker:ProviderCountForCode("235crystals")
+  crystal_count = crystal_count + 245 * Tracker:ProviderCountForCode("245crystals")
+  crystal_count = crystal_count + 270 * Tracker:ProviderCountForCode("270crystals")
+  crystal_count = crystal_count + 300 * Tracker:ProviderCountForCode("300crystals")
+  crystal_count = crystal_count + 400 * Tracker:ProviderCountForCode("400crystals")
+
+  return crystal_count
+end
+
+function CanBuyEverythingInShop()
+  return CrystalCount() > 1167
+end
+
 -- Zone access rules
 
 function AccessBlackCastle()
@@ -193,7 +231,8 @@ end
 
 -- This gets to be its own function because it's fucky!
 function AccessFireCageInnerOutOfLogic()
-    return AccessFireCage() and Has("redenergy") and Has("jump", 2) and Has("doublejump", 3) -- Ceiling stick skip (requires taking damage)
+    -- Ceiling stick skip (requires taking damage)
+    return AccessFireCage() and Has("redenergy") and Has("jump", 2) and Has("doublejump", 3)
 end
 
 -- Further FireCage out of logic notes:
@@ -210,8 +249,16 @@ function AccessGrottoUpper()
       JumpHeightMin(8)) -- ...or "No. Jump good."
 end
 
+function AccessIceCastleBoss()
+  return AccessIceCastle() and Has("divebomb")
+end
+
 function AccessNightWalkUpper()
   return AccessTheCurtainUpper()
+end
+
+function AccessSkyLandsRight()
+  return AccessIceCastleBoss()
 end
 
 function AccessSkySandInner()
@@ -219,11 +266,7 @@ function AccessSkySandInner()
 end
 
 function AccessSkySandMiddle()
-  return AccessSkySandInner() and Has("ceilingstick", 2) and Has("redenergy")
-end
-
-function AccessSkySandUpper()
-  return AccessSkySandMiddle() and Has("jump", 1)
+  return AccessSkySandInner() and Has("ceilingstick", 2) and Has("redenergy") and Has("jump", 2) and Has("doublejump", 2)
 end
 
 function AccessStoneCastleUpper()

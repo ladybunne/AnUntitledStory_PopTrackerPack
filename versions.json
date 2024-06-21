@@ -1,0 +1,12 @@
+{
+    "versions": [
+        {
+            "package_version": "1.0",
+            "download_url": "https://github.com/ladybunne/AnUntitledStory_PopTrackerPack/releases/download/v1.0/AnUntitledStory_PopTrackerPack.zip",
+            "sha256": "none yet",
+            "changelog": [
+                "Initial release!"
+            ]
+        }
+    ]
+}

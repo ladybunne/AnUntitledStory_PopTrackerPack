@@ -1,0 +1,26 @@
+{
+    "crystals": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "6,6",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "4, 4",
+                        "margin": "0, 0",
+                        "h_alignment": "left",
+                        "rows": [
+                            ["10crystals", "25crystals", "35crystals", "50crystals", "65crystals", "75crystals", "100crystals", "110crystals", "125crystals"],
+                            ["150crystals", "180crystals", "200crystals", "235crystals", "245crystals", "270crystals", "300crystals", "400crystals"]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

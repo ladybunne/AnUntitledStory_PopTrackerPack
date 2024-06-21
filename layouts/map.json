@@ -43,6 +43,15 @@
                                     "type": "layout",
                                     "key": "items"
                                 }
+                            },
+                            {
+                                "type": "group",
+                                "header": "Crystals",
+                                "dock": "left",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "crystals"
+                                }
                             }
                         ]
                     }

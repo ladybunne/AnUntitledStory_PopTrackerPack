@@ -1,3 +1,5 @@
+-- Ladybunne's note: I will clean this up eventually. For now it works, and that's good enough at this point in time.
+
 -- this is an example/ default implementation for AP autotracking
 -- it will use the mappings defined in item_mapping.lua and location_mapping.lua to track items and locations via thier ids
 -- it will also load the AP slot data in the global SLOT_DATA, keep track of the current index of on_item messages in CUR_INDEX
@@ -152,7 +154,6 @@ function OnLocation(location_id, location_name)
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onLocation: could not find object for code %s", v[1]))
     end
-    
 end
 
 
