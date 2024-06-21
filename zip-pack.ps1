@@ -1,5 +1,11 @@
-rm -r output/
+del AnUntitledStory-PopTrackerPack.zip
+del output\* -Recurse
 
-xcopy images items layouts locations maps scripts manifest.json settings.json output
+$files = "images\", "items\", "layouts\", "locations\", "maps\", "scripts\", "manifest.json", "settings.json"
+foreach($file in $files) {
+    Copy-Item $file -Destination output\ -Recurse
+}
 
-7z a -tzip AnUntitledStory-PopTrackerPack.zip output\*
+cd output
+7z a -tzip ..\AnUntitledStory_PopTrackerPack.zip *
+cd ..
