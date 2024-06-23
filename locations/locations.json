@@ -1,11 +1,11 @@
 [
     {
         "name": "BlackCastle",
-        "access_rules": ["$AccessBlackCastle"],
+        "access_rules": ["$BlackCastle", "$BlackCastleOOL, [false]"],
         "children": [
             {
                 "name": "BlackCastle Ninja 2",
-                "access_rules": ["$AccessBlackCastleInner, fireshot"],
+                "access_rules": ["$BlackCastleInner, fireshot", "$BlackCastleInnerOOL, fireshot, [false]"],
                 "sections": [
                     {
                         "name": "Blackcastle_boss_17"
@@ -21,7 +21,7 @@
             },
             {
                 "name": "BlackCastle Top Save",
-                "access_rules": ["$AccessBlackCastleInner, fireshot"],
+                "access_rules": ["$BlackCastleInner, fireshot", "$BlackCastleInnerOOL, fireshot, [false]"],
                 "sections": [
                     {
                         "name": "Blackcastle_end_flower"
@@ -37,7 +37,7 @@
             },
             {
                 "name": "BlackCastle Hidden Heart Under Red Blocks",
-                "access_rules": ["$AccessBlackCastleInner, fireshot"],
+                "access_rules": ["$BlackCastleInner, fireshot", "$BlackCastleInnerOOL, fireshot, [false]"],
                 "sections": [
                     {
                         "name": "Blackcastle_top_mid"
@@ -55,11 +55,11 @@
     },
     {
         "name": "BlancLand",
-        "access_rules": ["$AccessBlancLand"],
+        "access_rules": ["$BlancLand", "$BlancLandOOL, [false]"],
         "children": [
             {
                 "name": "BlancLand Top Save",
-                "access_rules": ["$AccessBlancLandLowerLeft, redenergy, fireshot", "$AccessBlancLandLowerLeft, iceshot, [false]"],
+                "access_rules": ["$BlancLandLowerLeft, redenergy, fireshot", "$BlancLandLowerLeft, iceshot, [false]", "$BlancLandLowerLeftOOL, redenergy, fireshot, [false]", "$BlancLandLowerLeftOOL, iceshot, [false]"],
                 "sections": [
                     {
                         "name": "Blancland_boss"
@@ -75,7 +75,7 @@
             },
             {
                 "name": "BlancLand Boss",
-                "access_rules": ["$AccessBlancLandLowerLeft, redenergy, fireshot", "$AccessBlancLandLowerLeft, iceshot, [false]"],
+                "access_rules": ["$BlancLandLowerLeft, redenergy, fireshot", "$BlancLandLowerLeft, iceshot, [false]", "$BlancLandLowerLeftOOL, redenergy, fireshot, [false]", "$BlancLandLowerLeftOOL, iceshot, [false]"],
                 "sections": [
                     {
                         "name": "Blancland_boss_16"
@@ -91,7 +91,7 @@
             },
             {
                 "name": "BlancLand Bottom Left Heart",
-                "access_rules": ["$AccessBlancLandLowerLeft"],
+                "access_rules": ["$BlancLandLowerLeft", "$BlancLandLowerLeftOOL, [false]"],
                 "sections": [
                     {
                         "name": "Blancland_bottom_left",
@@ -123,7 +123,7 @@
             },
             {
                 "name": "BlancLand Top Left Heart",
-                "access_rules": ["$AccessBlancLandLowerLeft, redenergy, fireshot, ceilingstick:2", "$AccessBlancLandLowerLeft, iceshot, ceilingstick:2, [false]"],
+                "access_rules": ["$BlancLandLowerLeft, redenergy, fireshot, ceilingstick:2", "$BlancLandLowerLeft, iceshot, ceilingstick:2, [false]", "$BlancLandLowerLeftOOL, redenergy, fireshot, ceilingstick:2, [false]", "$BlancLandLowerLeftOOL, iceshot, ceilingstick:2, [false]"],
                 "sections": [
                     {
                         "name": "Blancland_top_left_kill",
@@ -142,7 +142,7 @@
     },
     {
         "name": "Bonus",
-        "access_rules": ["$AccessFireCageInner", "$AccessFireCageInnerOutOfLogic, [false]"],
+        "access_rules": ["$Bonus", "$BonusOOL, [false]"],
         "children": [
             {
                 "name": "Bonus",
@@ -166,7 +166,7 @@
     },
     {
         "name": "Bottom",
-        "access_rules": ["$AccessBottom"],
+        "access_rules": ["$Bottom"],
         "children": [
             {
                 "name": "Bottom Save",
@@ -202,11 +202,11 @@
     },
     {
         "name": "CloudRun",
-        "access_rules": ["$AccessCloudRun"],
+        "access_rules": ["$CloudRun"],
         "children": [
             {
                 "name": "CloudRun Gold Orb",
-                "access_rules": ["$AccessCloudRunRight"],
+                "access_rules": ["$CloudRunRight"],
                 "sections": [
                     {
                         "name": "Cloudrun_boss"
@@ -222,7 +222,7 @@
             },
             {
                 "name": "CloudRun Boss",
-                "access_rules": ["$AccessCloudRunRight"],
+                "access_rules": ["$CloudRunRight"],
                 "sections": [
                     {
                         "name": "Cloudrun_boss_11"
@@ -238,7 +238,7 @@
             },
             {
                 "name": "CloudRun Far Right Heart",
-                "access_rules": ["$AccessCloudRunRight"],
+                "access_rules": ["$CloudRunRight"],
                 "sections": [
                     {
                         "name": "Cloudrun_far_right"
@@ -269,7 +269,7 @@
             },
             {
                 "name": "CloudRun Middle Save",
-                "access_rules": ["$AccessCloudRunMiddle"],
+                "access_rules": ["$CloudRunMiddle"],
                 "sections": [
                     {
                         "name": "Cloudrun_mid_save"
@@ -302,7 +302,7 @@
     },
     {
         "name": "ColdKeep",
-        "access_rules": ["$AccessColdKeep"],
+        "access_rules": ["$ColdKeep"],
         "children": [
             {
                 "name": "ColdKeep Boss",
@@ -373,11 +373,11 @@
     },
     {
         "name": "The Curtain",
-        "access_rules": ["$AccessTheCurtain"],
+        "access_rules": ["$TheCurtain", "$TheCurtainOOL, [false]"],
         "children": [
             {
                 "name": "The Curtain Upper Save",
-                "access_rules": ["$AccessTheCurtainUpper"],
+                "access_rules": ["$TheCurtainUpper", "$TheCurtainUpperOOL, [false]"],
                 "sections": [
                     {
                         "name": "Curtain_boss"
@@ -393,7 +393,7 @@
             },
             {
                 "name": "The Curtain Ninja 1",
-                "access_rules": ["$AccessTheCurtainUpper"],
+                "access_rules": ["$TheCurtainUpper", "$TheCurtainUpperOOL, [false]"],
                 "sections": [
                     {
                         "name": "Curtain_boss_14"
@@ -409,7 +409,7 @@
             },
             {
                 "name": "The Curtain Cannon Screen Divebomb Heart",
-                "access_rules": ["$AccessTheCurtainUpper"],
+                "access_rules": ["$TheCurtainUpper", "$TheCurtainUpperOOL, [false]"],
                 "sections": [
                     {
                         "name": "Curtain_break",
@@ -426,7 +426,7 @@
             },
             {
                 "name": "The Curtain Floating Enemies Heart",
-                "access_rules": ["$AccessTheCurtainUpper"],
+                "access_rules": ["$TheCurtainUpper", "$TheCurtainUpperOOL, [false]"],
                 "sections": [
                     {
                         "name": "Curtain_kill_4"
@@ -459,11 +459,11 @@
     },
     {
         "name": "Dark Grotto",
-        "access_rules": ["$AccessDarkGrotto"],
+        "access_rules": ["$DarkGrotto", "$DarkGrottoOOL, [false]"],
         "children": [
             {
                 "name": "Dark Grotto Exit Save",
-                "access_rules": ["$AccessDarkGrottoPostBoss, [fireshot]"],
+                "access_rules": ["$DarkGrottoPostBoss, [fireshot]", "$DarkGrottoPostBossOOL, [false]"],
                 "sections": [
                     {
                         "name": "Darkgrotto_bot_right_flower"
@@ -479,16 +479,18 @@
             },
             {
                 "name": "Dark Grotto Boss",
-                "access_rules": ["$AccessDarkGrottoPostBoss, [fireshot]"],
                 "sections": [
                     {
-                        "name": "Darkgrotto_boss_13"
+                        "name": "Darkgrotto_boss_13",
+                        "access_rules": ["$DarkGrottoPostBoss, [fireshot]", "$DarkGrottoPostBossOOL, [false]"]
                     },
                     {
-                        "name": "Darkgrotto_boss"
+                        "name": "Darkgrotto_boss",
+                        "access_rules": ["$DarkGrottoPostBoss, [fireshot]", "$DarkGrottoPostBossOOL, [false]"]
                     },
                     {
-                        "name": "Darkgrotto_boss_torch"
+                        "name": "Darkgrotto_boss_torch",
+                        "access_rules": ["$DarkGrottoPostBoss, [fireshot]", "$DarkGrottoPostBossOOL, [false]"]
                     }
                 ],
                 "map_locations": [
@@ -534,11 +536,11 @@
     },
     {
         "name": "DeepDive",
-        "access_rules": ["$AccessDeepDive"],
+        "access_rules": ["$DeepDive", "$DeepDiveOOL, [false]"],
         "children": [
             {
                 "name": "DeepDive Right Save",
-                "access_rules": ["$AccessDeepDiveRight"],
+                "access_rules": ["$DeepDiveRight", "$DeepDiveRightOOL, [false]"],
                 "sections": [
                     {
                         "name": "Deepdive_boss"
@@ -557,7 +559,7 @@
             },
             {
                 "name": "DeepDive Boss",
-                "access_rules": ["$AccessDeepDiveRight"],
+                "access_rules": ["$DeepDiveRight", "$DeepDiveRightOOL, [false]"],
                 "sections": [
                     {
                         "name": "Deepdive_boss_12"
@@ -573,7 +575,7 @@
             },
             {
                 "name": "DeepDive Exit Fish Platform Heart",
-                "access_rules": ["$AccessDeepDiveRight"],
+                "access_rules": ["$DeepDiveRight", "$DeepDiveRightOOL, [false]"],
                 "sections": [
                     {
                         "name": "Deepdive_exit_heart_mid",
@@ -590,7 +592,7 @@
             },
             {
                 "name": "DeepDive Exit Heart Hidden Inside Block",
-                "access_rules": ["$AccessDeepDiveRight"],
+                "access_rules": ["$DeepDiveRight", "$DeepDiveRightOOL, [false]"],
                 "sections": [
                     {
                         "name": "Deepdive_exit_heart_top"
@@ -606,7 +608,7 @@
             },
             {
                 "name": "DeepDive Top Right Heart",
-                "access_rules": ["$AccessDeepDiveRight"],
+                "access_rules": ["$DeepDiveRight", "$DeepDiveRightOOL, [false]"],
                 "sections": [
                     {
                         "name": "Deepdive_far_right",
@@ -645,7 +647,7 @@
             },
             {
                 "name": "DeepDive SS Eternity Heart",
-                "access_rules": ["$AccessDeepDiveRight"],
+                "access_rules": ["$DeepDiveRight", "$DeepDiveRightOOL, [false]"],
                 "sections": [
                     {
                         "name": "Deepdive_right_path"
@@ -740,7 +742,7 @@
     },
     {
         "name": "DeepTower",
-        "access_rules": ["$AccessDeepTower"],
+        "access_rules": ["$DeepTower"],
         "children": [
             {
                 "name": "DeepTower Boss",
@@ -778,7 +780,7 @@
             },
             {
                 "name": "DeepTower Upper Heart Door",
-                "access_rules": ["$AccessNightWalkUpper"],
+                "access_rules": ["$NightWalkUpper", "$NightWalkUpperOOL, [false]"],
                 "sections": [
                     {
                         "name": "Deeptower_top_entrance"
@@ -796,15 +798,15 @@
     },
     {
         "name": "FarFall",
-        "access_rules": ["$AccessFarFall"],
+        "access_rules": ["$FarFall"],
         "children": [
             {
                 "name": "FarFall Three Balloons Heart",
-                "access_rules": ["$AccessFarFallLowerLeft"],
+                "access_rules": ["$FarFallLowerLeft"],
                 "sections": [
                     {
                         "name": "Farfall_3_balloons",
-                        "access_rules": ["$AccessBottom"]
+                        "access_rules": ["$Bottom"]
                     }
                 ],
                 "map_locations": [
@@ -817,7 +819,7 @@
             },
             {
                 "name": "FarFall Five Balloons Clockwise Heart",
-                "access_rules": ["$AccessFarFallLowerLeft"],
+                "access_rules": ["$FarFallLowerLeft"],
                 "sections": [
                     {
                         "name": "Farfall_5_balloons",
@@ -834,7 +836,7 @@
             },
             {
                 "name": "FarFall Gold Orb",
-                "access_rules": ["$AccessFarFallLowerLeft"],
+                "access_rules": ["$FarFallLowerLeft"],
                 "sections": [
                     {
                         "name": "Farfall_blue_rock_boss"
@@ -850,7 +852,7 @@
             },
             {
                 "name": "FarFall Boss",
-                "access_rules": ["$AccessFarFallLowerLeft"],
+                "access_rules": ["$FarFallLowerLeft"],
                 "sections": [
                     {
                         "name": "Farfall_boss_8"
@@ -866,7 +868,7 @@
             },
             {
                 "name": "FarFall Bottom Right Save",
-                "access_rules": ["$AccessFarFallLowerRight"],
+                "access_rules": ["$FarFallLowerRight"],
                 "sections": [
                     {
                         "name": "Farfall_bottom_flower"
@@ -919,7 +921,7 @@
             },
             {
                 "name": "FarFall Yellow Energy Heart Door",
-                "access_rules": ["$AccessFarFallLowerRight, yellowenergy"],
+                "access_rules": ["$FarFallLowerRight, yellowenergy"],
                 "sections": [
                     {
                         "name": "Farfall_yellow_heart_door"
@@ -937,11 +939,11 @@
     },
     {
         "name": "FireCage",
-        "access_rules": ["$AccessFireCage"],
+        "access_rules": ["$FireCage", "$FireCageOOL, [false]"],
         "children": [
             {
                 "name": "FireCage Yellow Energy Upgrade",
-                "access_rules": ["$AccessFireCageInner, redenergy, [yellowenergy]"],
+                "access_rules": ["$FireCageInner, redenergy, [yellowenergy]", "$FireCageInnerOOL, redenergy, [false]"],
                 "sections": [
                     {
                         "name": "Firecage_boss"
@@ -957,7 +959,7 @@
             },
             {
                 "name": "FireCage Boss",
-                "access_rules": ["$AccessFireCageInner, redenergy, [yellowenergy]"],
+                "access_rules": ["$FireCageInner, redenergy, [yellowenergy]", "$FireCageInnerOOL, redenergy, [false]"],
                 "sections": [
                     {
                         "name": "Firecage_boss_7"
@@ -973,7 +975,7 @@
             },
             {
                 "name": "FireCage Bottom Save",
-                "access_rules": ["$AccessFireCageInner, redenergy, yellowenergy, ceilingstick:2"],
+                "access_rules": ["$FireCageInner, redenergy, yellowenergy, ceilingstick:2", "$FireCageInnerOOL, redenergy, yellowenergy, ceilingstick:2, [false]"],
                 "sections": [
                     {
                         "name": "Firecage_bot"
@@ -989,7 +991,7 @@
             },
             {
                 "name": "FireCage Bottom Left Save",
-                "access_rules": ["$AccessFireCageInner", "$AccessFireCageInnerOutOfLogic, [false]"],
+                "access_rules": ["$FireCageInner", "$FireCageInnerOOL, [false]"],
                 "sections": [
                     {
                         "name": "Firecage_bot_left_secret"
@@ -1005,7 +1007,7 @@
             },
             {
                 "name": "FireCage Middle",
-                "access_rules": ["$AccessFireCageInner, redenergy, [yellowenergy]"],
+                "access_rules": ["$FireCageInner, redenergy, [yellowenergy]", "$FireCageInnerOOL, redenergy, [false]"],
                 "sections": [
                     {
                         "name": "Firecage_mid",
@@ -1025,7 +1027,7 @@
             },
             {
                 "name": "FireCage Two Thwomps Heart",
-                "access_rules": ["$AccessFireCageInner", "$AccessFireCageInnerOutOfLogic, [false]"],
+                "access_rules": ["$FireCageInner", "$FireCageInnerOOL, [false]"],
                 "sections": [
                     {
                         "name": "Firecage_top",
@@ -1042,11 +1044,11 @@
             },
             {
                 "name": "FireCage Top Heart Door",
-                "access_rules": ["$AccessFireCage, [ceilingstick]"],
+                "access_rules": ["$FireCage, [ceilingstick]", "$FireCageOOL, [false]"],
                 "sections": [
                     {
                         "name": "Firecage_top_heart_door",
-                        "access_rules": ["$AccessFireCageInner"]
+                        "access_rules": ["$FireCageInner", "$FireCageInnerOOL, [false]"]
                     }
                 ],
                 "map_locations": [
@@ -1059,7 +1061,7 @@
             },
             {
                 "name": "FireCage Tollgate",
-                "access_rules": ["$AccessFireCageInner, fireshot:2, redenergy", "$AccessFireCageInner, ceilingstick:2", "$AccessFireCageInnerOutOfLogic, fireshot:2, [false]"],
+                "access_rules": ["$FireCageInner, fireshot:2, redenergy, hatch", "$FireCageInner, ceilingstick:2, hatch", "$FireCageInnerOOL, fireshot:2, hatch, [false]"],
                 "sections": [
                     {
                         "name": "Firecage_top_left_gate"
@@ -1077,7 +1079,7 @@
     },
     {
         "name": "Grotto",
-        "access_rules": ["[$AccessGrotto], $JumpHeightMin|3"],
+        "access_rules": ["[$Grotto], $JumpHeightMin|3"],
         "children": [
             {
                 "name": "Grotto First Boss",
@@ -1111,7 +1113,7 @@
             },
             {
                 "name": "Grotto Eye Boss",
-                "access_rules": ["$AccessGrottoUpper, divebomb"],
+                "access_rules": ["$GrottoUpper, divebomb", "$GrottoUpperOOL, divebomb, [false]"],
                 "sections": [
                     {
                         "name": "Grotto_boss_6"
@@ -1130,7 +1132,7 @@
             },
             {
                 "name": "Grotto Save",
-                "access_rules": ["$AccessGrottoUpper"],
+                "access_rules": ["$GrottoUpper", "$GrottoUpperOOL, [false]"],
                 "sections": [
                     {
                         "name": "Grotto_flower"
@@ -1165,14 +1167,14 @@
     },
     {
         "name": "HighLands",
-        "access_rules": ["$AccessHighLands"],
+        "access_rules": ["$HighLands", "$HighLandsOOL, [false]"],
         "children": [
             {
                 "name": "HighLands Platform",
                 "sections": [
                     {
                         "name": "Highlands_platform",
-                        "access_rules": ["$AccessTheCurtain"]
+                        "access_rules": ["$TheCurtain", "$TheCurtainOOL, [false]"]
                     }
                 ],
                 "map_locations": [
@@ -1187,11 +1189,11 @@
     },
     {
         "name": "IceCastle",
-        "access_rules": ["$AccessIceCastle"],
+        "access_rules": ["$IceCastle", "$IceCastleOOL, [false]"],
         "children": [
             {
                 "name": "IceCastle Post-Boss Save",
-                "access_rules": ["$AccessIceCastleBoss"],
+                "access_rules": ["$IceCastleBoss", "$IceCastleBossOOL, [false]"],
                 "sections": [
                     {
                         "name": "Icecastle_boss"
@@ -1207,7 +1209,7 @@
             },
             {
                 "name": "IceCastle Boss",
-                "access_rules": ["$AccessIceCastleBoss"],
+                "access_rules": ["$IceCastleBoss", "$IceCastleBossOOL, [false]"],
                 "sections": [
                     {
                         "name": "Icecastle_boss_15"
@@ -1223,7 +1225,7 @@
             },
             {
                 "name": "IceCastle Post-Boss Underhang",
-                "access_rules": ["$AccessIceCastleBoss"],
+                "access_rules": ["$IceCastleBoss", "$IceCastleBossOOL, [false]"],
                 "sections": [
                     {
                         "name": "Icecastle_bottom_underhang"
@@ -1352,7 +1354,7 @@
     },
     {
         "name": "Library",
-        "access_rules": ["$AccessLibrary"],
+        "access_rules": ["$Library", "$LibraryOOL, [false]"],
         "children": [
             {
                 "name": "Library",
@@ -1376,14 +1378,14 @@
     },
     {
         "name": "LongBeach",
-        "access_rules": ["$AccessLongBeach"],
+        "access_rules": ["$LongBeach", "$LongBeachOOL, [false]"],
         "children": [
             {
                 "name": "LongBeach Save",
                 "sections": [
                     {
                         "name": "Longbeach_water_entrance_flower",
-                        "access_rules": ["$AccessDeepDiveRight, $JumpHeightMin|8, ceilingstick:2"]
+                        "access_rules": ["$DeepDiveRight, $JumpHeightMin|8, ceilingstick:2", "$DeepDiveRightOOL, $JumpHeightMin|8, ceilingstick:2, [false]"]
                     }
                 ],
                 "map_locations": [
@@ -1398,7 +1400,7 @@
     },
     {
         "name": "MountSide",
-        "access_rules": ["$AccessMountSide"],
+        "access_rules": ["$MountSide", "$MountSideOOL, [false]"],
         "children": [
             {
                 "name": "MountSide Save",
@@ -1434,7 +1436,7 @@
     },
     {
         "name": "NightClimb",
-        "access_rules": ["$AccessNightClimb"],
+        "access_rules": ["$NightClimb"],
         "children": [
             {
                 "name": "NightClimb Boss",
@@ -1537,11 +1539,11 @@
     },
     {
         "name": "NightWalk",
-        "access_rules": ["$AccessNightWalk"],
+        "access_rules": ["$NightWalk"],
         "children": [
             {
                 "name": "NightWalk Chest",
-                "access_rules": ["$AccessNightWalkUpper"],
+                "access_rules": ["$NightWalkUpper", "$NightWalkUpperOOL, [false]"],
                 "sections": [
                     {
                         "name": "Nightwalk_chest"
@@ -1557,7 +1559,7 @@
             },
             {
                 "name": "NightWalk Hatch",
-                "access_rules": ["duck, $JumpHeightMin|6", "$AccessNightWalkUpper"],
+                "access_rules": ["duck, $JumpHeightMin|6", "$NightWalkUpper", "$NightWalkUpperOOL, [false]"],
                 "sections": [
                     {
                         "name": "Nightwalk_hatch"
@@ -1573,7 +1575,7 @@
             },
             {
                 "name": "NightWalk Upper Save",
-                "access_rules": ["$AccessNightWalkUpper"],
+                "access_rules": ["$NightWalkUpper", "$NightWalkUpperOOL, [false]"],
                 "sections": [
                     {
                         "name": "Nightwalk_high_flower"
@@ -1608,7 +1610,7 @@
             },
             {
                 "name": "NightWalk Nest",
-                "access_rules": ["$AccessNightWalkUpper"],
+                "access_rules": ["$NightWalkUpper", "$NightWalkUpperOOL, [false]"],
                 "sections": [
                     {
                         "name": "Nightwalk_nest_flower"
@@ -1627,7 +1629,7 @@
                 "sections": [
                     {
                         "name": "Nightwalk_save_flower",
-                        "access_rules": ["$JumpHeightMin|5", "$AccessSkyTown, doublejump, [false]"]
+                        "access_rules": ["$JumpHeightMin|5", "$SkyTown, doublejump, [false]"]
                     }
                 ],
                 "map_locations": [
@@ -1660,7 +1662,7 @@
             },
             {
                 "name": "NightWalk Red Energy Heart",
-                "access_rules": ["duck, $JumpHeightMin|6", "$AccessNightWalkUpper"],
+                "access_rules": ["duck, $JumpHeightMin|6", "$NightWalkUpper", "$NightWalkUpperOOL, [false]"],
                 "sections": [
                     {
                         "name": "Nightwalk_sky_heart",
@@ -1677,7 +1679,7 @@
             },
             {
                 "name": "NightWalk Upper Path Heart",
-                "access_rules": ["$AccessNightWalkUpper"],
+                "access_rules": ["$NightWalkUpper", "$NightWalkUpperOOL, [false]"],
                 "sections": [
                     {
                         "name": "Nightwalk_upper_heart"
@@ -1695,7 +1697,7 @@
     },
     {
         "name": "RainbowDive",
-        "access_rules": ["$AccessRainbowDive"],
+        "access_rules": ["$RainbowDive", "$RainbowDiveOOL, [false]"],
         "children": [
             {
                 "name": "RainbowDive Prizes",
@@ -1728,7 +1730,7 @@
         "children": [
             {
                 "name": "SkyLands Twelve Balloons Heart",
-                "access_rules": ["$AccessSkyLandsRight, fireshot:2"],
+                "access_rules": ["$SkyLandsRight, fireshot:2", "$SkyLandsRightOOL, fireshot:2, [false]"],
                 "sections": [
                     {
                         "name": "Skylands_balloon_chain"
@@ -1744,7 +1746,7 @@
             },
             {
                 "name": "SkyLands Chest",
-                "access_rules": ["$AccessSkyLands"],
+                "access_rules": ["$SkyLands", "$SkyLandsOOL, [false]"],
                 "sections": [
                     {
                         "name": "Skylands_chest"
@@ -1760,11 +1762,11 @@
             },
             {
                 "name": "SkyLands Duck Statues",
-                "access_rules": ["$AccessSkyLandsRight"],
+                "access_rules": ["$SkyLandsRight", "$SkyLandsRightOOL, [false]"],
                 "sections": [
                     {
                         "name": "Skylands_duck",
-                        "access_rules": ["duck"]
+                        "access_rules": ["hatch, duck"]
                     }
                 ],
                 "map_locations": [
@@ -1777,7 +1779,7 @@
             },
             {
                 "name": "SkyLands Heart Door",
-                "access_rules": ["$AccessSkyLandsRight"],
+                "access_rules": ["$SkyLandsRight", "$SkyLandsRightOOL, [false]"],
                 "sections": [
                     {
                         "name": "Skylands_heart_gate"
@@ -1796,7 +1798,7 @@
                 "sections": [
                     {
                         "name": "Skylands_portal",
-                        "access_rules": ["$AccessGrottoUpper, redenergy"]
+                        "access_rules": ["$GrottoUpper, redenergy", "$GrottoUpperOOL, redenergy, [false]"]
                     }
                 ],
                 "map_locations": [
@@ -1809,7 +1811,7 @@
             },
             {
                 "name": "SkyLands Tollgate",
-                "access_rules": ["$AccessSkyLands"],
+                "access_rules": ["$SkyLands, hatch"],
                 "sections": [
                     {
                         "name": "Skylands_toll_gate"
@@ -1825,7 +1827,7 @@
             },
             {
                 "name": "SkyLands Upper Right Underhang Heart",
-                "access_rules": ["$AccessSkyLandsRight"],
+                "access_rules": ["$SkyLandsRight", "$SkyLandsRightOOL, [false]"],
                 "sections": [
                     {
                         "name": "Skylands_underhang"
@@ -1843,11 +1845,11 @@
     },
     {
         "name": "SkySand",
-        "access_rules": ["$AccessSkySand"],
+        "access_rules": ["$SkySand"],
         "children": [
             {
                 "name": "SkySand Gold Orb",
-                "access_rules": ["$AccessSkySandMiddle"],
+                "access_rules": ["$SkySandMiddle"],
                 "sections": [
                     {
                         "name": "Skysand_boss"
@@ -1863,7 +1865,7 @@
             },
             {
                 "name": "SkySand Boss",
-                "access_rules": ["$AccessSkySandMiddle"],
+                "access_rules": ["$SkySandMiddle"],
                 "sections": [
                     {
                         "name": "Skysand_boss_10"
@@ -1879,7 +1881,7 @@
             },
             {
                 "name": "SkySand Lower Save",
-                "access_rules": ["$AccessSkySandInner"],
+                "access_rules": ["$SkySandInner"],
                 "sections": [
                     {
                         "name": "Skysand_bot_left",
@@ -1887,7 +1889,7 @@
                     },
                     {
                         "name": "Skysand_left_outside",
-                        "access_rules": ["$AccessSkySandMiddle"]
+                        "access_rules": ["$SkySandMiddle"]
                     }
                 ],
                 "map_locations": [
@@ -1900,7 +1902,7 @@
             },
             {
                 "name": "SkySand Upper Save",
-                "access_rules": ["$AccessSkySandMiddle"],
+                "access_rules": ["$SkySandMiddle"],
                 "sections": [
                     {
                         "name": "Skysand_left_roof"
@@ -1916,7 +1918,7 @@
             },
             {
                 "name": "SkySand Lower Heart Door",
-                "access_rules": ["$AccessSkySandMiddle"],
+                "access_rules": ["$SkySandMiddle"],
                 "sections": [
                     {
                         "name": "Skysand_right_heart_door"
@@ -1935,7 +1937,7 @@
             },
             {
                 "name": "SkySand Upper Heart Door",
-                "access_rules": ["$AccessSkySandMiddle"],
+                "access_rules": ["$SkySandMiddle"],
                 "sections": [
                     {
                         "name": "Skysand_top",
@@ -1957,7 +1959,7 @@
     },
     {
         "name": "Sky Town",
-        "access_rules": ["$AccessSkyTown"],
+        "access_rules": ["$SkyTown"],
         "children": [
             {
                 "name": "Sky Town Entrance Save",
@@ -1967,7 +1969,7 @@
                     },
                     {
                         "name": "Skytown_tower_heart",
-                        "access_rules": "$AccessSkySand"
+                        "access_rules": "$SkySand"
                     }
                 ],
                 "map_locations": [
@@ -2015,7 +2017,7 @@
                 "sections": [
                     {
                         "name": "Skytown_red_heart",
-                        "access_rules": ["redenergy", "$AccessSkySandInner"]
+                        "access_rules": ["redenergy", "$SkySandInner"]
                     },
                     {
                         "name": "Skytown_shop_1",
@@ -2078,7 +2080,7 @@
     },
     {
         "name": "Staircase",
-        "access_rules": ["$AccessStaircase"],
+        "access_rules": ["$Staircase", "$StaircaseOOL, [false]"],
         "children": [
             {
                 "name": "Flowers",
@@ -2112,7 +2114,7 @@
     },
     {
         "name": "StoneCastle",
-        "access_rules": ["$AccessStoneCastle"],
+        "access_rules": ["$StoneCastle"],
         "children": [
             {
                 "name": "StoneCastle Rock Boss",
@@ -2132,7 +2134,7 @@
             },
             {
                 "name": "StoneCastle Eye Boss",
-                "access_rules": ["$AccessStoneCastleUpper, [ceilingstick:2]"],
+                "access_rules": ["$StoneCastleUpper, [ceilingstick:2]"],
                 "sections": [
                     {
                         "name": "Stonecastle_boss_9",
@@ -2149,7 +2151,7 @@
             },
             {
                 "name": "StoneCastle Gold Orb",
-                "access_rules": ["$AccessStoneCastleUpper, divebomb, [ceilingstick:2]"],
+                "access_rules": ["$StoneCastleUpper, divebomb, [ceilingstick:2]"],
                 "sections": [
                     {
                         "name": "Stonecastle_eye_boss"
@@ -2216,7 +2218,7 @@
             },
             {
                 "name": "StoneCastle Upper Heart",
-                "access_rules": ["$AccessStoneCastleUpper"],
+                "access_rules": ["$StoneCastleUpper"],
                 "sections": [
                     {
                         "name": "Stonecastle_top_heart"
@@ -2234,7 +2236,7 @@
     },
     {
         "name": "StrangeCastle",
-        "access_rules": ["$AccessStrangeCastle"],
+        "access_rules": ["$StrangeCastle"],
         "children": [
             {
                 "name": "StrangeCastle",
@@ -2260,7 +2262,7 @@
     },
     {
         "name": "UnderTomb",
-        "access_rules": ["$AccessUnderTomb"],
+        "access_rules": ["$UnderTomb", "$UnderTombOOL, [false]"],
         "children": [
             {
                 "name": "UnderTomb Left",

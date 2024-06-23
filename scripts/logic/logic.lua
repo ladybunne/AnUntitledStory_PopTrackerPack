@@ -67,214 +67,320 @@ end
 
 -- Zone access rules
 
-function AccessBlackCastle()
-  return AccessLongBeach()
+function BlackCastle()
+  return LongBeach()
 end
 
-function AccessBlancLand()
-  return AccessDeepDive()
+function BlackCastleOOL()
+  return LongBeachOOL()
+end
+
+function BlancLand()
+  return DeepDive()
+end
+
+function BlancLandOOL()
+  return DeepDiveOOL()
 end
 
 -- Not currently used due to fiddly out-of-logic FireCage red energy skip stuff
-function AccessBonus()
-  return AccessFireCageInner()
+function Bonus()
+  return FireCageInner()
 end
 
-function AccessBottom()
-  return AccessFarFallLowerLeft() and Has("ceilingstick", 2)
+function BonusOOL()
+  return FireCageInnerOOL()
 end
 
-function AccessCloudRun()
-  return AccessBottom()
+function Bottom()
+  return FarFallLowerLeft() and Has("ceilingstick", 2)
 end
 
-function AccessColdKeep()
-  return AccessDeepTower()
+function CloudRun()
+  return Bottom()
 end
 
-function AccessTheCurtain()
-  return AccessHighLands() and Has("ceilingstick", 2) and Has("yellowenergy")
+function ColdKeep()
+  return DeepTower()
 end
 
-function AccessDarkGrotto()
-  return AccessHighLands() and Has("divebomb")
+function TheCurtain()
+  return HighLands() and Has("ceilingstick", 2) and Has("yellowenergy")
 end
 
-function AccessDeepDive()
-  return AccessGrottoUpper() and Has("divebomb")
+function TheCurtainOOL()
+  return HighLandsOOL() and Has("ceilingstick", 2) and Has("yellowenergy")
 end
 
-function AccessDeepTower()
+function DarkGrotto()
+  return HighLands() and Has("divebomb")
+end
+
+function DarkGrottoOOL()
+  return HighLandsOOL() and Has("divebomb")
+end
+
+function DeepDive()
+  return GrottoUpper() and Has("divebomb")
+end
+
+function DeepDiveOOL()
+  return GrottoUpperOOL() and Has("divebomb")
+end
+
+function DeepTower()
   return JumpHeightMin(4)
 end
 
-function AccessFarFall()
-  return AccessSkyTown()
+function FarFall()
+  return SkyTown()
 end
 
-function AccessFireCage()
-  return AccessGrottoUpper() and Has("divebomb")
+function FireCage()
+  return GrottoUpper() and Has("divebomb")
 end
 
-function AccessGrotto()
+function FireCageOOL()
+  return GrottoUpperOOL() and Has("divebomb")
+end
+
+function Grotto()
   return JumpHeightMin(4)
 end
 
-function AccessHighLands()
-  return AccessGrottoUpper() and Has("redenergy") and Has("iceshot")
+function HighLands()
+  return GrottoUpper() and Has("redenergy") and Has("iceshot")
 end
 
-function AccessIceCastle()
-  return AccessTheCurtainUpper()
+function HighLandsOOL()
+  return GrottoUpperOOL() and Has("redenergy") and Has("iceshot")
 end
 
-function AccessLibrary()
-  return AccessTheCurtainUpper()
+function IceCastle()
+  return TheCurtainUpper()
 end
 
-function AccessLongBeach()
-  return AccessDeepDiveRight() or AccessDarkGrotto() or AccessTheCurtainUpper()
+function IceCastleOOL()
+  return TheCurtainUpperOOL()
 end
 
-function AccessMountSide()
-  return AccessGrottoUpper() and Has("redenergy")
+function Library()
+  return TheCurtainUpper()
 end
 
-function AccessNightClimb()
-  return AccessColdKeep() and JumpHeightMin(5) and Has("fireshot")
+function LibraryOOL()
+  return TheCurtainUpperOOL()
 end
 
-function AccessNightWalk()
+function LongBeach()
+  return DeepDiveRight() or DarkGrotto() or TheCurtainUpper()
+end
+
+function LongBeachOOL()
+  return DeepDiveRightOOL() or DarkGrottoOOL() or TheCurtainUpperOOL()
+end
+
+function MountSide()
+  return GrottoUpper() and Has("redenergy")
+end
+
+function MountSideOOL()
+  return GrottoUpperOOL() and Has("redenergy")
+end
+
+function NightClimb()
+  return ColdKeep() and JumpHeightMin(5) and Has("fireshot")
+end
+
+function NightWalk()
   return true
 end
 
-function AccessRainbowDive()
-  return AccessTheCurtainUpper()
+function RainbowDive()
+  return TheCurtainUpper()
 end
 
-function AccessSkyLands()
-  return AccessTheCurtainUpper()
+function RainbowDiveOOL()
+  return TheCurtainUpperOOL()
 end
 
-function AccessSkySand()
-  return AccessNightClimb()
+function SkyLands()
+  return TheCurtainUpper()
 end
 
-function AccessSkyTown()
-  return AccessColdKeep()
+function SkyLandsOOL()
+  return TheCurtainUpperOOL()
 end
 
-function AccessStaircase()
-  return AccessNightWalkUpper()
+function SkySand()
+  return NightClimb()
 end
 
-function AccessStoneCastle()
-  return AccessFarFall()
+function SkyTown()
+  return ColdKeep()
 end
 
-function AccessStrangeCastle()
+function Staircase()
+  return NightWalkUpper()
+end
+
+function StaircaseOOL()
+  return NightWalkUpperOOL()
+end
+
+function StoneCastle()
+  return FarFall()
+end
+
+function StrangeCastle()
   -- Need to test if doublejumps are needed.
-  return AccessFarFallLowerLeft()
+  return FarFallLowerLeft()
 end
 
-function AccessUnderTomb()
-  return AccessLongBeach() and Has("divebomb")
+function UnderTomb()
+  return LongBeach() and Has("divebomb")
+end
+
+function UnderTombOOL()
+  return LongBeachOOL() and Has("divebomb")
 end
 
 -- Extras to help with subzones
 
-function AccessBlackCastleInner()
-  return AccessBlackCastle() and Has("goldorb", 7) and Has("doublejump", 3) and Has("ceilingstick", 2) and Has("redenergy") and Has("divebomb")
+function BlackCastleInner()
+  return BlackCastle() and Has("goldorb", 7) and JumpHeightMin(7) and Has("redenergy") and Has("divebomb")
 end
 
-function AccessBlancLandLowerLeft()
-  return AccessBlancLand() and (Has("redenergy") or Has("iceshot"))
+function BlackCastleInnerOOL()
+  return BlackCastleOOL() and Has("goldorb", 7) and JumpHeightMin(7) and Has("redenergy") and Has("divebomb")
 end
 
-function AccessCloudRunMiddle()
-  return AccessCloudRun() and JumpHeightMin(8) and Has("fireshot")
+function BlancLandLowerLeft()
+  return BlancLand() and (Has("redenergy") or Has("iceshot"))
 end
 
-function AccessCloudRunRight()
-  return AccessCloudRunMiddle() and Has("iceshot")
+function BlancLandLowerLeftOOL()
+  return BlancLandOOL() and (Has("redenergy") or Has("iceshot"))
+end
+
+function CloudRunMiddle()
+  return CloudRun() and JumpHeightMin(7) and Has("fireshot")
+end
+
+function CloudRunRight()
+  return CloudRunMiddle() and Has("iceshot")
 end
 
 -- Lighting the torches can be done with divebomb, but it's precise to do without taking damage.
-function AccessDarkGrottoPostBoss()
-  return AccessDarkGrotto() and Has("iceshot")
+function DarkGrottoPostBoss()
+  return DarkGrotto() and Has("iceshot")
 end
 
-function AccessDeepDiveRight()
-  return AccessDeepDive() and JumpHeightMin(7)
+function DarkGrottoPostBossOOL()
+  return DarkGrottoOOL() and Has("iceshot")
 end
 
-function AccessFarFallLower()
-  return AccessFarFall() and Has("divebomb")
+function DeepDiveRight()
+  return DeepDive() and JumpHeightMin(7)
 end
 
-function AccessFarFallLowerLeft()
-  return AccessFarFallLower() and Has("hatch") and Has("redenergy")
+function DeepDiveRightOOL()
+  return DeepDiveOOL() and JumpHeightMin(7)
 end
 
-function AccessFarFallLowerRight()
+function FarFallLower()
+  return FarFall() and Has("divebomb")
+end
+
+function FarFallLowerLeft()
+  return FarFallLower() and Has("hatch") and Has("redenergy")
+end
+
+function FarFallLowerRight()
   -- The boss and StrangeCastle may need a doublejump.
-  return AccessFarFallLower() and Has("redenergy")
+  return FarFallLower() and Has("redenergy")
 end
 
-function AccessFireCageInner()
+-- I think this actually needs jump:2.
+-- Never mind. Just longjump, don't try and cling.
+function FireCageInner()
   -- Red energy isn't _strictly_ required to get past the first heart door room...
   -- ...but you need a maxed doublejump to pull it off.
-  return AccessFireCage() and -- Get in the area, then...
+  return FireCage() and -- Get in the area, then...
     ((Has("ceilingstick") and Has("redenergy")) or -- Normal
     (Has("ceilingstick") and Has("doublejump", 3))) -- Red energy skip
 end
 
 -- This gets to be its own function because it's fucky!
-function AccessFireCageInnerOutOfLogic()
-    -- Ceiling stick skip (requires taking damage)
-    return AccessFireCage() and Has("redenergy") and Has("jump", 2) and Has("doublejump", 3)
+function FireCageInnerOOL()
+  -- Either get here OOL in the first place, or...
+  return FireCageOOL() or
+        -- Ceiling stick skip (requires taking damage)
+        (FireCage() and Has("redenergy") and Has("jump", 2) and Has("doublejump", 3))
 end
 
 -- Further FireCage out of logic notes:
 --  - It turns out you can get to FireCage Middle without ceiling stick, too! What a fun turn of events! /s
 --  - You need to make a precise jump from spikes onto the floating enemy, then hit the red energy. It might require a maxed jump and doublejump.
---  - This gets you access to FireCage Middle (not heart door, obviously), and everything in the boss area. Hell, if you have yellow energy you can clear all of it!
+--  - This gets you  to FireCage Middle (not heart door, obviously), and everything in the boss area. Hell, if you have yellow energy you can clear all of it!
 --  - Except the item above the save, because by definition you don't have slide for it. Oh well.
 --  - It's hyper-cursed and I will do logic for it later... but it is possible.
 
-
-function AccessGrottoUpper()
+function GrottoUpper()
   return Has("hatch") and -- For getting past the tollgate...
       ((Has("duck") and Has("redenergy") and JumpHeightMin(6)) or -- Vanilla...
       JumpHeightMin(8)) -- ...or "No. Jump good."
 end
 
-function AccessIceCastleBoss()
-  return AccessIceCastle() and Has("divebomb")
+-- Apparently you don't need Hatch. Shit's wild.
+function GrottoUpperOOL()
+  return JumpHeightMin(8)
 end
 
-function AccessNightWalkUpper()
-  return AccessTheCurtainUpper()
+function IceCastleBoss()
+  return IceCastle() and Has("divebomb")
 end
 
-function AccessSkyLandsRight()
-  return AccessIceCastleBoss()
+function IceCastleBossOOL()
+  return IceCastleOOL() and Has("divebomb")
 end
 
-function AccessSkySandInner()
-  return AccessSkySand() and Has("iceshot")
+function NightWalkUpper()
+  return TheCurtainUpper()
 end
 
-function AccessSkySandMiddle()
-  return AccessSkySandInner() and Has("ceilingstick", 2) and Has("redenergy") and Has("jump", 2) and Has("doublejump", 2)
+function NightWalkUpperOOL()
+  return TheCurtainUpperOOL()
 end
 
-function AccessStoneCastleUpper()
-  -- I think this might be doable with 7.
-  return AccessStoneCastle() and Has("redenergy") and Has("yellowenergy") and JumpHeightMin(7)
+function SkyLandsRight()
+  return IceCastleBoss()
+end
+
+function SkyLandsRightOOL()
+  return IceCastleBossOOL()
+end
+
+function SkySandInner()
+  return SkySand() and Has("iceshot")
+end
+
+function SkySandMiddle()
+  return SkySandInner() and Has("ceilingstick", 2) and Has("redenergy") and Has("jump", 2) and Has("doublejump", 2)
+end
+
+function StoneCastleUpper()
+  -- The yellow energy room with the walker needs either max jump or a ceiling stick and 7.
+  return StoneCastle() and Has("redenergy") and Has("yellowenergy") and 
+    ((JumpHeightMin(7) and Has("ceilingstick")) or
+    JumpHeightMin(8))
 end
 
 -- Interestingly, you can knock back Curtain ghosts with ice shot, so you don't actually need fire here.
-function AccessTheCurtainUpper()
-  return AccessTheCurtain() and JumpHeightMin(8)
+function TheCurtainUpper()
+  return TheCurtain() and JumpHeightMin(8)
+end
+
+function TheCurtainUpperOOL()
+  return TheCurtainOOL() and JumpHeightMin(8)
 end
