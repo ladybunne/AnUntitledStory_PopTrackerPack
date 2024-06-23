@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.0.1",
+            "download_url": "https://github.com/ladybunne/AnUntitledStory_PopTrackerPack/releases/download/v1.0.1/AnUntitledStory_PopTrackerPack.zip",
+            "sha256": "6965b9da17fdcd9714d45836b894759ff90494c3b0859dce7cfca44007365f41",
+            "changelog": [
+                "Add numerous logic changes, including NightWalk Hatch Skip, lower jump requirements for BlackCastle and CloudRun, and a tweak to upper StoneCastle."
+            ]
+        },
+        {
             "package_version": "1.0",
             "download_url": "https://github.com/ladybunne/AnUntitledStory_PopTrackerPack/releases/download/v1.0/AnUntitledStory_PopTrackerPack.zip",
             "sha256": "d69230fe8163c8124b17490eaffe6299897ba3129b2cfc860f1d8f696099850e",

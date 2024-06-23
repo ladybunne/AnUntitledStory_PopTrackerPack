@@ -1,4 +1,4 @@
-del AnUntitledStory-PopTrackerPack.zip
+del AnUntitledStory_PopTrackerPack.zip
 del output\* -Recurse
 
 $files = "images\", "items\", "layouts\", "locations\", "maps\", "scripts\", "manifest.json", "settings.json"
