@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.0.2",
+            "download_url": "https://github.com/ladybunne/AnUntitledStory_PopTrackerPack/releases/download/v1.0.2/AnUntitledStory_PopTrackerPack.zip",
+            "sha": "5375cbb1c8a93a893eeff93faebfd1c630fced7c008a64616b222b97bff2f4bd",
+            "changelog": [
+                "Tweaked map graphic slightly, added shop item prices (while they're static!), improved logic for FireCage and BlackCastle."
+            ]
+        },
+        {
             "package_version": "1.0.1",
             "download_url": "https://github.com/ladybunne/AnUntitledStory_PopTrackerPack/releases/download/v1.0.1/AnUntitledStory_PopTrackerPack.zip",
             "sha256": "6965b9da17fdcd9714d45836b894759ff90494c3b0859dce7cfca44007365f41",

@@ -248,11 +248,11 @@ end
 -- Extras to help with subzones
 
 function BlackCastleInner()
-  return BlackCastle() and Has("goldorb", 7) and JumpHeightMin(7) and Has("redenergy") and Has("divebomb")
+  return BlackCastle() and Has("goldorb", 7) and JumpHeightMin(7) and Has("redenergy") and Has("divebomb") and Has("ceilingstick", 2)
 end
 
 function BlackCastleInnerOOL()
-  return BlackCastleOOL() and Has("goldorb", 7) and JumpHeightMin(7) and Has("redenergy") and Has("divebomb")
+  return BlackCastleOOL() and Has("goldorb", 7) and JumpHeightMin(7) and Has("redenergy") and Has("divebomb") and Has("ceilingstick", 2)
 end
 
 function BlancLandLowerLeft()

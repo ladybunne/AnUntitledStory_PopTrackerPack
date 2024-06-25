@@ -1048,7 +1048,7 @@
                 "sections": [
                     {
                         "name": "Firecage_top_heart_door",
-                        "access_rules": ["$FireCageInner", "$FireCageInnerOOL, [false]"]
+                        "access_rules": ["$FireCageInner, ceilingstick", "$FireCageInnerOOL, ceilingstick, [false]"]
                     }
                 ],
                 "map_locations": [
@@ -1061,7 +1061,13 @@
             },
             {
                 "name": "FireCage Tollgate",
-                "access_rules": ["$FireCageInner, fireshot:2, redenergy, hatch", "$FireCageInner, ceilingstick:2, hatch", "$FireCageInnerOOL, fireshot:2, hatch, [false]"],
+                "access_rules": [
+                    "$FireCageInner, fireshot:2, redenergy, hatch",
+                    "$FireCageInner, ceilingstick:2, hatch",
+                    "$FireCageInner, $JumpHeightMin|8, fireshot, redenergy, hatch",
+                    "$FireCageInnerOOL, fireshot:2, redenergy, hatch, [false]",
+                    "$FireCageInnerOOL, ceilingstick:2, hatch, [false]",
+                    "$FireCageInnerOOL, $JumpHeightMin|8, fireshot, redenergy, hatch, [false]"],
                 "sections": [
                     {
                         "name": "Firecage_top_left_gate"
@@ -2020,35 +2026,36 @@
                         "access_rules": ["redenergy", "$SkySandInner"]
                     },
                     {
-                        "name": "Skytown_shop_1",
+                        "name": "Skytown_shop_1 (21 crystals)",
                         "access_rules": [""]
                     },
                     {
-                        "name": "Skytown_shop_2",
+                        "name": "Skytown_shop_2 (35 crystals)",
                         "access_rules": [""]
                     },
                     {
-                        "name": "Skytown_shop_3",
+                        "name": "Skytown_shop_3 (87 crystals)",
                         "access_rules": [""]
                     },
                     {
-                        "name": "Skytown_shop_4",
+                        "name": "Skytown_shop_4 (132 crystals)",
                         "access_rules": ["[$CanBuyEverythingInShop]"]
                     },
                     {
-                        "name": "Skytown_shop_5",
+                        "name": "Skytown_shop_5 (246 crystals)",
+                        "access_rules": ["[$CanBuyEverythingInShop]"]
+                        
+                    },
+                    {
+                        "name": "Skytown_shop_6 (32 crystals)",
                         "access_rules": [""]
                     },
                     {
-                        "name": "Skytown_shop_6",
+                        "name": "Skytown_shop_7 (197 crystals)",
                         "access_rules": ["[$CanBuyEverythingInShop]"]
                     },
                     {
-                        "name": "Skytown_shop_7",
-                        "access_rules": ["[$CanBuyEverythingInShop]"]
-                    },
-                    {
-                        "name": "Skytown_shop_8",
+                        "name": "Skytown_shop_8 (417 crystals)",
                         "access_rules": ["[$CanBuyEverythingInShop]"]
                     }
                 ],
