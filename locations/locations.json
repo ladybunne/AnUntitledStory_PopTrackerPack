@@ -328,7 +328,7 @@
                 "sections": [
                     {
                         "name": "Coldkeep_cannon_heart",
-                        "access_rules": ["iceshot"]
+                        "access_rules": ["iceshot, [$JumpHeightMin|5]"]
                     }
                 ],
                 "map_locations": [
@@ -908,7 +908,7 @@
                 "sections": [
                     {
                         "name": "Farfall_kill_3",
-                        "access_rules": ["doublejump, fireshot, [false]", "$JumpHeightMin|5"]
+                        "access_rules": ["doublejump, fireshot, [false]", "doublejump, $JumpHeightMin|5"]
                     }
                 ],
                 "map_locations": [
@@ -1064,10 +1064,10 @@
                 "access_rules": [
                     "$FireCageInner, fireshot:2, redenergy, hatch",
                     "$FireCageInner, ceilingstick:2, hatch",
-                    "$FireCageInner, $JumpHeightMin|8, fireshot, redenergy, hatch",
+                    "$FireCageInner, $JumpHeightMin|7, fireshot, redenergy, hatch",
                     "$FireCageInnerOOL, fireshot:2, redenergy, hatch, [false]",
                     "$FireCageInnerOOL, ceilingstick:2, hatch, [false]",
-                    "$FireCageInnerOOL, $JumpHeightMin|8, fireshot, redenergy, hatch, [false]"],
+                    "$FireCageInnerOOL, $JumpHeightMin|7, fireshot, redenergy, hatch, [false]"],
                 "sections": [
                     {
                         "name": "Firecage_top_left_gate"
@@ -2125,7 +2125,7 @@
         "children": [
             {
                 "name": "StoneCastle Rock Boss",
-                "access_rules": ["redenergy"],
+                "access_rules": ["$StoneCastleRight", "$StoneCastleRightOOL, [false]"],
                 "sections": [
                     {
                         "name": "Stonecastle_boss_5"
@@ -2208,7 +2208,7 @@
             },
             {
                 "name": "StoneCastle Divebomb Upgrade",
-                "access_rules": ["redenergy"],
+                "access_rules": ["$StoneCastleRight", "$StoneCastleRightOOL, [false]"],
                 "sections": [
                     {
                         "name": "Stonecastle_rock_boss",

@@ -1,0 +1,1 @@
+SkySand item near lower save: You can actually skip Red Energy if your jump is high enough.

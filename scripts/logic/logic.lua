@@ -93,7 +93,7 @@ function BonusOOL()
 end
 
 function Bottom()
-  return FarFallLowerLeft() and Has("ceilingstick", 2)
+  return FarFallLowerLeft() and Has("ceilingstick", 2) and JumpHeightMin(6.5)
 end
 
 function CloudRun()
@@ -267,6 +267,7 @@ function CloudRunMiddle()
   return CloudRun() and JumpHeightMin(7) and Has("fireshot")
 end
 
+-- Hilariously, you can skip Fluffy XR-9 by jumping off its missiles and just going to the next room.
 function CloudRunRight()
   return CloudRunMiddle() and Has("iceshot")
 end
@@ -367,6 +368,16 @@ end
 
 function SkySandMiddle()
   return SkySandInner() and Has("ceilingstick", 2) and Has("redenergy") and Has("jump", 2) and Has("doublejump", 2)
+end
+
+function StoneCastleRight()
+  -- You need either a doublejump, or ceiling slide, to make it here unscathed.
+  -- Conveniently you also need these things to get divebomb.
+  return StoneCastle() and Has("redenergy") and (Has("doublejump") or Has("ceilingstick", 2))
+end
+
+function StoneCastleRightOOL()
+  return StoneCastle() and Has("redenergy")
 end
 
 function StoneCastleUpper()
